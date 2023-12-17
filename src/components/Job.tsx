@@ -1,5 +1,3 @@
-"use client";
-
 import clsx from "clsx";
 import Markdown from "react-markdown";
 

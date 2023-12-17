@@ -1,5 +1,3 @@
-"use client";
-
 import { BookUser, Globe, Linkedin, Mail, Smartphone, Twitter } from "lucide-react";
 import { Resume } from "../resume";
 import Title from "./Title";

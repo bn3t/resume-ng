@@ -1,5 +1,3 @@
-"use client";
-
 import { Resume } from "../resume";
 import { formatDate } from "../utils/dates";
 import Title from "./Title";
