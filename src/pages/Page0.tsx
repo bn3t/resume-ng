@@ -14,7 +14,7 @@ const Page0 = ({ basics, skills, current }: Page0Props) => {
   return (
     <>
       <Header name={basics.name} role={basics.label} summary={basics.summary} />
-      <div className="flex flex-col gap-16 sm:flex-row">
+      <div className="flex flex-col gap-8 sm:flex-row">
         <aside className="w-full sm:w-1/5">
           <AboutMe
             address={basics.location.address}

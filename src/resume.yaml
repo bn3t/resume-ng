@@ -2,18 +2,19 @@ basics:
   name: Bernard Niset
   label: Senior Frontend Developer (Freelance)
   summary: |
-    As a Senior Software Engineer with extensive experience in backend Java-based
-    services, I have currently transitioned my focus to specialize in modern 
-    frontend development using the ReactJS JavaScript framework.
+    As a Senior Software Engineer, I bring an extensive background in Java-based 
+    backend services. Recently, I have pivoted to specialize in contemporary 
+    frontend development, harnessing the power of the ReactJS JavaScript framework 
+    to build dynamic user interfaces.
 
-    Testing is also a crucial aspect of my frontend development approach, and I am 
-    well-versed in both systematic unit testing and advanced integration tools like
-    Cypress and Playwright for application testing and backend mocking.
+    Testing forms a cornerstone of my development methodology. I am proficient 
+    in systematic unit testing and utilize sophisticated integration tools such 
+    as Cypress and Playwright for comprehensive application testing and backend 
+    simulation.
 
-    ### Specialties
+    ### Specialities
 
-    ReactJS, TypeScript, JavaScript, Playwright. Long backend experience: 
-    Java, Spring, Hibernate, Web Services, Cloud Computing.
+    Expert in ReactJS, TypeScript, and JavaScript. Extensive experience in backend technologies, including Java, Spring, Hibernate, Web Services, and Cloud Computing.
   phone: +32 479 529 195
   email: bn@smartobjects.be
   location:
@@ -47,10 +48,10 @@ work:
       - Parcelshop selection via a map
       - Track and trace features for parcels
       - Unit testing with react testing library
-      - Integration testing with playwright
+      - Integration testing with **playwright**
       - Screenshot integration testing with playwright
       - Apply design choices coming from the marketing department
-      - Synchronize translations using Phrase.
+      - Synchronize translations using **Phrase**.
     technologies:
       - reactjs
       - zustand
@@ -113,36 +114,33 @@ work:
     startDate: "2019-12-01"
     endDate: "2021-04-30"
     methodology: Agile/Scrum
-    summary: >-
-      Development of the DIM application. Data governance and Data
-      science related features.
+    summary: |
+      Developed the DIM application, enhancing data governance and data science 
+      capabilities using ReactJS and TypeScript. Authored OpenAPI definitions 
+      for backend integration, implemented frontend testing with Cypress, and 
+      enabled parallel development through mock backend tools. 
     highlights:
-      - New features in the frontend using **ReactJS** and **Antd Design System**.
+      - New features in the frontend using **ReactJS** and the **Antd Design System**.
       - >-
-        Write **OpenAPI (swagger)** definitions to specify the interface with
+        Write **OpenAPI** (swagger) definitions to specify the interface with
         the backend.
       - Frontend testing with **Cypress** and **Wiremock**.
       - Mock implementation of the backend to allow for parallel development
-      - Some NodeJS tools for mocking the backend (Express, websocket)
     technologies:
       - ant-design
       - apexcharts
       - axios
-      - css
+      - css/sass
       - cypress
       - enzyme
-      - expressjs
       - git
       - github
       - html
-      - javascript
-      - jenkins
       - jest
       - json-schema
       - jsonata
       - nodejs
       - openapi
-      - ramdajs
       - react-diagrams
       - react-redux
       - react-router
@@ -150,10 +148,6 @@ work:
       - reactjs
       - redux
       - redux-toolkit
-      - redux-thunk
-      - sass
-      - snyk
-      - swagger
       - typescript
       - websocket
       - wiremock
@@ -176,7 +170,7 @@ work:
       - Admin application used by internal bank users
       - Code reviews (PRs) of frontend and backend code
       - Mock implementation of the backend to allow for parallel development
-      - Frontend Testing with Cypress and Wiremock.
+      - Frontend Testing with **Cypress** and **Wiremock**.
     technologies:
       - angular
       - cypress
@@ -196,7 +190,7 @@ work:
       - Development of a Workflow Management UI.
       - Development of a HiRes video player on the **Electron** platform.
       - >-
-        Development of a file ingest application (Electron + Web) for ingesting local
+        Development of a file ingest application (**Electron** + **Web**) for ingesting local
         video files
     technologies:
       - cucumber
@@ -269,12 +263,12 @@ work:
       Orchestrated seamless deployment of Scrum team projects within the bank's 
       infrastructure, ensuring product integration with dependent systems. 
       Managed server provisioning, network configuration, and WebSphere setup. 
-      Oversaw application security, roles, and SQL script implementation. 
+      Oversaw application security, roles, and **SQL** script implementation. 
       Mentored the development team on technical decisions and coding practices, 
-      and facilitated test automation with tools like Cucumber-Java. 
+      and facilitated test automation with tools like **Cucumber-Java**. 
       
       Worked within an Agile/Scrum methodology, utilizing technologies such as 
-      Hibernate, Java, Oracle, Spring, and WebSphere.
+      **Hibernate**, **Java**, **Oracle**, **Spring** and **WebSphere**.
     highlights:
       - Follow-up infrastructure provisioning of servers
       - Follow-up configuration of network routing
@@ -307,10 +301,10 @@ work:
       environment. Handled full lifecycle development with Spring/Hibernate and 
       managed AWS hosting.
     highlights:
-      - Frontend web development in JavaScript and TypeScript
-      - iOS development for iPhone in Swift
-      - Backend development (Spring, Spring MVC, RESTfull, Spring Boot)
-      - Manage the Application hosted on AWS (S3, RDS, Elastic Beanstalk)
+      - Frontend web development in **JavaScript** and **TypeScript**
+      - iOS development for iPhone in **Swift**
+      - Backend development (**Spring**, **Spring MVC**, **Spring Boot**)
+      - Manage the Application hosted on **AWS** (S3, RDS, Elastic Beanstalk)
     technologies:
       - java
       - javascript
@@ -364,7 +358,7 @@ work:
     methodology: Waterfall
     summary: >-
       Contributed to the ETRM project, focusing on backend J2EE development and BPMN for 
-      energy trading applications. Developed components using Java, Spring, and Hibernate, 
+      energy trading applications. Developed components using **Java**, **Spring**, and **Hibernate**, 
       and implemented workflows. Utilized technologies such as Wicket, Jasper Reports, 
       JBoss, Oracle, Ant, and SVN within a Waterfall methodology framework.
     highlights: []
@@ -388,11 +382,13 @@ work:
     summary: >-
       Led the architecture, development, and production support of mobile applications. 
       Specialized in Java/J2EE platforms, focusing on both frontend and backend systems, 
-      and leveraged technologies such as Wicket, PostgreSQL, JBoss, and ActiveMQ to 
+      and leveraged technologies such as **Wicket**, **PostgreSQL**, **JBoss**, and **ActiveMQ** to 
       deliver sophisticated mobile solutions.
     highlights: []
     technologies:
       - java
+      - spring
+      - hibernate
       - jee
       - wicket
       - mobile
@@ -408,8 +404,8 @@ work:
     methodology: Extreme Programming
     summary: >-
       DVB-RCS Project. Development of the network Hub management application
-      (Customer Configuration Management Tool). J2EE Java Development with JBOSS
-      / Hibernate / Spring on Linux/Windows.
+      (Customer Configuration Management Tool). J2EE Java Development with **Jboss**
+      / **Hibernate** / **Spring** on Linux/Windows.
     highlights: []
     technologies:
       - j2ee
@@ -431,8 +427,8 @@ work:
     summary: >
       Development of a redirection system for bad requests done by ISPs Internet users. Design, 
       development and technical support of the complete IT infrastructure following the 
-      requirements provided by the customer. The redirection engine is written in C++ and 
-      Python, the administrator part is a web site written in J2EE.
+      requirements provided by the customer. The redirection engine is written in **C++** and 
+      **Python**, the administrator part is a web site written in **J2EE**.
     highlights: []
     technologies:
       - c/c++
@@ -457,9 +453,9 @@ work:
     methodology: Waterfall
     summary: >-
       Part of the GUI development for the CLS Bank system, ensuring cross-platform compatibility across
-       Windows NT and AIX. Led the design and enhancement of a complex MFC/STL application and a 
-       C++ API. Mentored a team of 6, improved code quality, provided AIX support, and developed 
-       a Java-based system monitoring tool.
+       Windows NT and AIX. Led the design and enhancement of a complex **MFC/STL** application and a 
+       **C++** API. Mentored a team of 6, improved code quality, provided **AIX** support, and developed 
+       a **Java**-based system monitoring tool.
     highlights: []
     technologies:
       - windows
@@ -485,8 +481,8 @@ work:
       Senior Software Developer and Team Leader with a strong track record from 
       1991-2000, specializing in the development of web and distributed applications, 
       EDM systems, and workflow solutions. Led and contributed to key projects in a 
-      range of environments, utilizing technologies such as C, C++, Java, and 
-      Python across Windows, UNIX, and Linux platforms. 
+      range of environments, utilizing technologies such as **C**, **C++**, **Java** and 
+      **Python** across **Windows**, **UNIX** and **Linux** platforms. 
       
       Demonstrated expertise in database management and development tools, 
       delivering scalable solutions in telecom, document management, 
