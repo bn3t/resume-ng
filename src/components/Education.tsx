@@ -1,6 +1,7 @@
 "use client";
 
 import { Resume } from "../resume";
+import { formatDate } from "../utils/dates";
 import Title from "./Title";
 
 interface EducationProps {
@@ -18,7 +19,7 @@ const Education = ({ education }: EducationProps) => {
             <div className="flex flex-row justify-between">
               <div>{edu.studyType} {edu.area}</div>
               <div className="self-end text-gray-600">
-                {edu.startDate} - {edu.endDate}
+                {formatDate(edu.startDate)} - {formatDate(edu.endDate)}
               </div>
             </div>
           </div>

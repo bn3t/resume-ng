@@ -12,7 +12,7 @@ basics:
 
     ### Specialties
 
-    ReactJS, TypeScript, JavaScript, Playwright, Cypress. Long backend experience: 
+    ReactJS, TypeScript, JavaScript, Playwright. Long backend experience: 
     Java, Spring, Hibernate, Web Services, Cloud Computing.
   phone: +32 479 529 195
   email: bn@smartobjects.be
@@ -20,7 +20,7 @@ basics:
     address: Clos du Parnasse, 13 boîte 19
     postalCode: "1050"
     city: Brussels
-    countryCode: BE
+    countryCode: Belgium
   website: https://www.smartobjects.be
   profiles:
     - network: linkedin
@@ -697,7 +697,6 @@ skills:
       - TypeScript
       - JavaScript
       - Java
-      - SQL
       - C/C++
   - name: Java Ecosystem
     level: Master
