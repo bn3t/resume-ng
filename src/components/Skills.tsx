@@ -1,5 +1,3 @@
-"use client";
-
 import { Resume } from "../resume";
 import Title from "./Title";
 

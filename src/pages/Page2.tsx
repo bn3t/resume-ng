@@ -1,5 +1,3 @@
-"use client";
-
 import { ProcessedResume } from "../resume";
 import Job from "../components/Job";
 
