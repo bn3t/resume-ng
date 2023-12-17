@@ -4,6 +4,7 @@ import clsx from "clsx";
 import Markdown from "react-markdown";
 
 import { Resume } from "../resume";
+import { formatDate } from "../utils/dates";
 
 interface JobProps {
   job: Resume["work"][0];
@@ -12,25 +13,25 @@ interface JobProps {
 }
 
 export const Job = ({ job, index, incolumns = false }: JobProps) => {
-  const endDate = job.endDate ? job.endDate : "Present";
+  const endDate = job.endDate ? formatDate(job.endDate) : "Present";
   return (
     <div key={`${job.company}-${index}`} className={clsx("mb-4", "break-inside-avoid")}>
       <div className={clsx("flex flex-col justify-between")}>
         <div className="flex flex-col">
           <div className="flex flex-row justify-between">
-            <h3 className="text-2xl font-semibold tracking-wide">{job.company}</h3>
+            <h3 className="text-2xl font-semibold tracking-wider">{job.company}</h3>
             <div className={clsx("self-end text-gray-600")}>
-              {job.startDate} - {endDate}
+              {formatDate(job.startDate)} - {endDate}
             </div>
           </div>
           <div className="w-full border-b-2 border-b-smo-blue-400"></div>
           <div className="flex flex-row justify-between">
-            <div>{job.position}</div>
-            {!incolumns && <div className="text-xl">{job.description}</div>}
+            <div className="tracking-wider">{job.position}</div>
+            {!incolumns && <div className="text-xl italic">{job.description}</div>}
           </div>
         </div>
       </div>
-      {incolumns && <div className="text-xl">{job.description}</div>}
+      {incolumns && <div className="text-xl italic">{job.description}</div>}
       <div className="prose prose-cv mt-1 max-w-full leading-normal">
         <Markdown>{job.summary}</Markdown>
       </div>
@@ -41,7 +42,7 @@ export const Job = ({ job, index, incolumns = false }: JobProps) => {
           </li>
         ))}
       </ul>
-      <ul className="mt-2">
+      <ul className="mt-4">
         {job.technologies?.map((technology, i) => (
           <li
             key={`${technology}-${i}`}
