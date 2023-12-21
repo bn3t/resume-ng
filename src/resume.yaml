@@ -18,7 +18,7 @@ basics:
   phone: +32 479 529 195
   email: bn@smartobjects.be
   location:
-    address: Clos du Parnasse, 13 boîte 19
+    address: Clos du Parnasse, 13 / 19
     postalCode: "1050"
     city: Brussels
     countryCode: Belgium
@@ -118,7 +118,7 @@ work:
       Developed the DIM application, enhancing data governance and data science 
       capabilities using ReactJS and TypeScript. Authored OpenAPI definitions 
       for backend integration, implemented frontend testing with Cypress, and 
-      enabled parallel development through mock backend tools. 
+      enabled parallel development through mock backend tools.
     highlights:
       - New features in the frontend using **ReactJS** and the **Antd Design System**.
       - >-
@@ -266,7 +266,7 @@ work:
       Oversaw application security, roles, and **SQL** script implementation. 
       Mentored the development team on technical decisions and coding practices, 
       and facilitated test automation with tools like **Cucumber-Java**. 
-      
+
       Worked within an Agile/Scrum methodology, utilizing technologies such as 
       **Hibernate**, **Java**, **Oracle**, **Spring** and **WebSphere**.
     highlights:
@@ -483,18 +483,18 @@ work:
       EDM systems, and workflow solutions. Led and contributed to key projects in a 
       range of environments, utilizing technologies such as **C**, **C++**, **Java** and 
       **Python** across **Windows**, **UNIX** and **Linux** platforms. 
-      
+
       Demonstrated expertise in database management and development tools, 
       delivering scalable solutions in telecom, document management, 
       and various freelance engagements.
     highlights:
-      - Versatile Software Developer and Team Leader with a proven history of 
-        leading innovative projects in telecom, document management, and web development 
-        from 1991-2000. 
-      - Expert in a multitude of programming languages and database systems across 
-        various platforms. 
-      - Delivered high-impact solutions and applications, both as a full-time 
-        specialist and a freelance contractor, contributing to the 
+      - Versatile Software Developer and Team Leader with a proven history of
+        leading innovative projects in telecom, document management, and web development
+        from 1991-2000.
+      - Expert in a multitude of programming languages and database systems across
+        various platforms.
+      - Delivered high-impact solutions and applications, both as a full-time
+        specialist and a freelance contractor, contributing to the
         technological advancement of multiple organizations.
     technologies:
       - c

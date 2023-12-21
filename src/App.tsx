@@ -7,6 +7,7 @@ import Page0 from "./pages/Page0";
 import Page1 from "./pages/Page1";
 import Page2 from "./pages/Page2";
 import Education from "./components/Education";
+import { useEffect } from "react";
 
 const resume = resumeSchema.parse(resumeYaml) as Resume;
 
@@ -19,6 +20,9 @@ const processedResume: ProcessedResume = {
 };
 
 function App() {
+  useEffect(() => {
+    document.title = `${processedResume.basics.name} - ${processedResume.basics.label}`;
+  }, []);
   return (
     <main className="mx-auto space-y-4 p-16 shadow-lg print:m-0 print:w-full print:p-0 print:shadow-none sm:w-full lg:w-[800px]">
       <Page0 basics={processedResume.basics} skills={processedResume.skills} current={processedResume.current} />
