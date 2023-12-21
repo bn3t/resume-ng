@@ -7,7 +7,7 @@ interface HeaderProps {
 }
 
 const Header = ({ name, role, summary }: HeaderProps) => {
-  console.log(summary)
+  console.log(summary);
   return (
     <div className="flex flex-col">
       <div className="flex flex-col sm:flex-row sm:gap-8 md:gap-16">
@@ -19,7 +19,7 @@ const Header = ({ name, role, summary }: HeaderProps) => {
           <Markdown>{summary}</Markdown>
         </div>
       </div>
-      <div className="mt-4 h-5 border-b-[12px] border-smo-blue-200"></div>
+      <div className="mt-4 h-5 border-b-[12px] border-smo-blue-400" />
     </div>
   );
 };
