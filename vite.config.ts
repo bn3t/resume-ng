@@ -20,7 +20,7 @@ export default defineConfig({
             <meta property="og:title" content="${resume.basics.name} - ${resume.basics.label}" />
             <meta property="og:author" content="${resume.basics.name}" />
             <meta property="og:description" content="${resume.basics.summary}" />
-            <meta property="og:image" content="og-image.png" />
+            <meta property="og:image" content="/og-image.png" />
             <meta property=“og:type” content=“profile” />
             <meta property="author" content="${resume.basics.name}" />
             <title>${resume.basics.name} - ${resume.basics.label}</title>
