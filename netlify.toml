@@ -1,0 +1,5 @@
+[build]
+    publish = "dist/"
+
+    # Default build command.
+    command = "npx puppeteer browsers install chrome && npm run build"
