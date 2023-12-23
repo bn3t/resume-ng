@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1](https://github.com/bn3t/resume-ng/compare/v0.1.0...v0.1.1) (2023-12-23)
+
+
+### Features
+
+* add open graph support into the html ([b45fe02](https://github.com/bn3t/resume-ng/commit/b45fe02ad9f954cca8fe0dfc3382284260bcd84b))
+* add open graph support into the html ([1e749f4](https://github.com/bn3t/resume-ng/commit/1e749f44ccd52c21e81f90e14443e3f43365dd92))
+
 ## 0.1.0 (2023-12-21)
 
 
