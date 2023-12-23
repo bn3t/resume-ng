@@ -7,7 +7,7 @@ interface Page1Props {
 
 const Page1 = ({ work }: Page1Props) => {
   return (
-    <div className="print:columns-2 md:columns-2">
+    <div className="print:columns-2">
       {work.map((job, i) => (
         <Job key={`${job.name}-${i}`} job={job} index={i} incolumns={true} />
       ))}

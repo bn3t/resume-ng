@@ -18,10 +18,12 @@
     "dayjs": "^1.11.10",
     "file-url": "^4.0.0",
     "lucide-react": "^0.297.0",
+    "pdf-lib": "^1.17.1",
     "puppeteer": "^21.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-markdown": "^9.0.1",
+    "yaml": "^2.3.4",
     "zod": "^3.22.4"
   },
   "devDependencies": {
