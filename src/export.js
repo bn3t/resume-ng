@@ -5,23 +5,22 @@ import { copyFile } from "copy-file";
 import fs from "fs/promises";
 import { PDFDocument } from "pdf-lib";
 import { parse } from "yaml";
+
 import packageJson from "../package.json" with { type: "json" };
 
-const DIST_HTML = "./dist/index.html";
-const DIST_PDF = "dist/Bernard Niset.pdf";
-const DIST_PDF_WITH_DATE = `dist/Bernard Niset ${dayjs().format("YYYY-MM-DD")}.pdf`;
+const DIST = "./dist";
 
-export const exportPDF = async () => {
+export const exportPDF = async (resume) => {
   const browser = await puppeteer.launch({
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
     headless: "new",
   });
   const page = await browser.newPage();
-  const url = fileUrl(DIST_HTML);
+  const url = fileUrl(`${DIST}/index.html`);
   await page.goto(url, { waitUntil: "networkidle2" });
   await page.waitForSelector("main");
   await page.pdf({
-    path: DIST_PDF,
+    path: `${DIST}/${resume.basics.name}.pdf`,
     format: "A4",
     printBackground: true,
     landscape: false,
@@ -35,26 +34,32 @@ export const exportPDF = async () => {
   await browser.close();
 };
 
-export const copyPDF = async () => {
-  await copyFile(DIST_PDF, DIST_PDF_WITH_DATE);
+export const copyPDF = async (resume) => {
+  await copyFile(
+    `${DIST}/${resume.basics.name}.pdf`,
+    `${DIST}/${resume.basics.name} ${dayjs().format("YYYY-MM-DD")}.pdf`,
+  );
 };
 
-export const modifyPDFProperties = async () => {
-  const resume = parse(await fs.readFile("./src/resume.yaml", "utf8"));
+export const loadResume = async () => {
+  return parse(await fs.readFile("./src/resume.yaml", "utf8"));
+};
 
-  const pdfBuffer = await fs.readFile(DIST_PDF);
+export const modifyPDFProperties = async (resume) => {
+  const pdfBuffer = await fs.readFile(`${DIST}/${resume.basics.name}.pdf`);
   const pdf = await PDFDocument.load(pdfBuffer);
   pdf.setAuthor(resume.basics.name);
   pdf.setTitle(resume.basics.label);
   pdf.setSubject(`Resume of ${resume.basics.name} - version ${packageJson.version}`);
   const pdfBytes = await pdf.save();
-  await fs.writeFile(DIST_PDF, pdfBytes);
+  await fs.writeFile(`${DIST}/${resume.basics.name}.pdf`, pdfBytes);
 };
 
 const main = async () => {
-  await exportPDF();
-  await modifyPDFProperties();
-  await copyPDF();
+  const resume = await loadResume();
+  await exportPDF(resume);
+  await modifyPDFProperties(resume);
+  await copyPDF(resume);
 };
 
 main().catch(console.error);
