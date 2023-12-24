@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/bn3t/resume-ng/compare/v0.1.1...v0.1.2) (2023-12-24)
+
+
+### Features
+
+* Add a download button on web ([6a2e29b](https://github.com/bn3t/resume-ng/commit/6a2e29bb95d99f795bd3e2eb4d733fc3a6a18290))
+
 ## [0.1.1](https://github.com/bn3t/resume-ng/compare/v0.1.0...v0.1.1) (2023-12-23)
 
 
