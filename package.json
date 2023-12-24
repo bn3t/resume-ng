@@ -9,7 +9,7 @@
     "vite:build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "export:puppeteer": "node src/export.js",
-    "preview": "vite preview"
+    "preview": "vite preview --port 5173"
   },
   "dependencies": {
     "@fontsource-variable/league-gothic": "^5.0.18",
