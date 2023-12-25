@@ -2,7 +2,6 @@ import ViteYaml from "@modyfi/vite-plugin-yaml";
 import react from "@vitejs/plugin-react";
 import fs from "fs";
 import { defineConfig } from "vite";
-import { viteSingleFile } from "vite-plugin-singlefile";
 import { parse } from "yaml";
 
 const resume = parse(fs.readFileSync("./src/resume.yaml", "utf8"));
@@ -30,7 +29,6 @@ export default defineConfig({
       },
     },
     react(),
-    viteSingleFile(),
     ViteYaml(),
   ],
 });
