@@ -2,7 +2,7 @@ name: Build with Vitejs
 
 on:
   push:
-    branches: ["main"]
+    branches: ["*"]
   pull_request:
     branches: ["main"]
 
@@ -26,8 +26,3 @@ jobs:
         run: |
           npm install
           npm run build
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        if: ${{ github.ref == 'refs/heads/master' }}
-        with:
-          folder: dist

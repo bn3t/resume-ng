@@ -16,8 +16,8 @@ export const exportPDF = async (resume) => {
     headless: "new",
   });
   const page = await browser.newPage();
-  const url = fileUrl(`${DIST}/index.html`);
-  await page.goto(url, { waitUntil: "networkidle2" });
+  // const url = fileUrl(`${DIST}/index.html`);
+  await page.goto("http://localhost:5173", { waitUntil: "networkidle2" });
   await page.waitForSelector("main");
   await page.pdf({
     path: `${DIST}/${resume.basics.name}.pdf`,
