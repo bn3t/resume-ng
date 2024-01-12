@@ -1,9 +1,8 @@
-import puppeteer from "puppeteer";
-import fileUrl from "file-url";
-import dayjs from "dayjs";
 import { copyFile } from "copy-file";
+import dayjs from "dayjs";
 import fs from "fs/promises";
 import { PDFDocument } from "pdf-lib";
+import puppeteer from "puppeteer";
 import { parse } from "yaml";
 
 import packageJson from "../package.json" with { type: "json" };
@@ -42,7 +41,7 @@ export const copyPDF = async (resume) => {
 };
 
 export const loadResume = async () => {
-  return parse(await fs.readFile("./src/resume.yaml", "utf8"));
+  return parse(await fs.readFile("./src/content/resume.yaml", "utf8"));
 };
 
 export const modifyPDFProperties = async (resume) => {
