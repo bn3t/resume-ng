@@ -9,6 +9,7 @@ import "./index.css";
 import { ProcessedResume, Resume, resumeSchema } from "../schema/resume";
 
 import resumeYaml from "../resume.yaml";
+
 import Education from "../components/Education";
 import Page0 from "../components/Page0";
 import Page1 from "../components/Page1";
@@ -32,12 +33,12 @@ const processedResume: ProcessedResume = {
     <link rel="icon" type="image/svg+xml" href="/logo-icon-16x16.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta property="og:title" content="${resume.basics.name} - ${resume.basics.label}" />
-    <meta property="og:description" content="${resume.basics.summary}" />
+    <meta property="og:title" content={`${resume.basics.name} - ${resume.basics.label}`} />
+    <meta property="og:description" content={`${resume.basics.summary}`} />
     <meta property="og:image" content="/og-image.png" />
     <meta property="og:type" content="profile" />
-    <meta name="author" content="${resume.basics.name}" />
-    <meta name="description" content="${resume.basics.label}" />
+    <meta name="author" content={`${resume.basics.name}`} />
+    <meta name="description" content={`${resume.basics.label}`} />
     <title>
       {resume.basics.name} - {resume.basics.label}
     </title>
@@ -71,4 +72,3 @@ const processedResume: ProcessedResume = {
     </main>
   </body>
 </html>
-<style></style>./Page0./Page1./Page2 ../schema/resume
