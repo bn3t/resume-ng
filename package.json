@@ -2,15 +2,16 @@
   "name": "resume-ng",
   "private": true,
   "version": "0.1.3",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "npm run astro:build && start-server-and-test preview http://localhost:5173 export:puppeteer",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "export:puppeteer": "node src/export.js",
-    "dev": "astro dev -p 5173",
+    "dev": "astro dev",
     "start": "astro dev",
     "astro:build": "astro build",
-    "preview": "astro preview -p 5173"
+    "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",

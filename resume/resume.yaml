@@ -30,6 +30,9 @@ basics:
     - network: twitter
       username: herge21
       url: https://twitter.com/herge21
+    - network: github
+      username: bn3t
+      url: https://github.com/bn3t
 work:
   - company: GLS Belgium
     disposition: current
