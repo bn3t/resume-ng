@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.3](https://github.com/bn3t/resume-ng/compare/v0.1.2...v0.1.3) (2024-01-12)
+
+
+### Features
+
+* convert the project to astro ([#10](https://github.com/bn3t/resume-ng/issues/10)) ([0fddbf1](https://github.com/bn3t/resume-ng/commit/0fddbf1a53bbd49b6b582e95bcb47008e59dfa83))
+
+
+### Bug Fixes
+
+* fix broken download link ([#12](https://github.com/bn3t/resume-ng/issues/12)) ([ce15819](https://github.com/bn3t/resume-ng/commit/ce15819598234bf39ab5ae0be2c6a896d299e0da))
+
 ## [0.1.2](https://github.com/bn3t/resume-ng/compare/v0.1.1...v0.1.2) (2023-12-24)
 
 
