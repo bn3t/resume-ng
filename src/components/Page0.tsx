@@ -1,8 +1,8 @@
-import { ProcessedResume } from "../resume";
-import AboutMe from "../components/AboutMe";
-import Experience from "../components/Experience";
-import Header from "../components/Header";
-import Skills from "../components/Skills";
+import { ProcessedResume } from "../schema/resume";
+import AboutMe from "./AboutMe";
+import Experience from "./Experience";
+import Header from "./Header";
+import Skills from "./Skills";
 
 interface Page0Props {
   basics: ProcessedResume["basics"];

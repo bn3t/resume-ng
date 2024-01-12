@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import Markdown from "react-markdown";
 
-import { Resume } from "../resume";
+import { Resume } from "../schema/resume";
 import { formatDate } from "../utils/dates";
 
 interface JobProps {

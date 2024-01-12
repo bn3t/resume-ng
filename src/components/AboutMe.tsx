@@ -1,5 +1,5 @@
 import { BookUser, Globe, Linkedin, Mail, Smartphone, Twitter } from "lucide-react";
-import { Resume } from "../resume";
+import { Resume } from "../schema/resume";
 import Title from "./Title";
 
 interface AboutMeProps {
