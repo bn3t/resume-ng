@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://github.com/bn3t/resume-ng/compare/v0.1.3...v1.0.0) (2024-01-12)
+
+
+### Features
+
+* add github links ([#13](https://github.com/bn3t/resume-ng/issues/13)) ([82adc6b](https://github.com/bn3t/resume-ng/commit/82adc6b5748402c9809bc26f91976ea65e887218))
+
 ## [0.1.3](https://github.com/bn3t/resume-ng/compare/v0.1.2...v0.1.3) (2024-01-12)
 
 
