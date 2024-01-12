@@ -21,7 +21,6 @@
     "astro": "^4.1.2",
     "clsx": "^2.0.0",
     "dayjs": "^1.11.10",
-    "file-url": "^4.0.0",
     "lucide-react": "^0.297.0",
     "pdf-lib": "^1.17.1",
     "puppeteer": "^21.6.1",
