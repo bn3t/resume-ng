@@ -1,4 +1,4 @@
-import { BookUser, Globe, Linkedin, Mail, Smartphone, Twitter } from "lucide-react";
+import { BookUser, Globe, Linkedin, Mail, Smartphone, Twitter, Github } from "lucide-react";
 import { Resume } from "../schema/resume";
 import Title from "./Title";
 
@@ -50,6 +50,7 @@ const AboutMe = ({ address, email, phone, postalCode, country, profiles, city, w
           <li key={profile.network} className="flex flex-row items-center space-x-4 text-sm">
             {profile.network === "linkedin" && <Linkedin className="h-6 w-6 sm:h-4 sm:w-4" />}
             {profile.network === "twitter" && <Twitter className="h-6 w-6 sm:h-4 sm:w-4" />}
+            {profile.network === "github" && <Github className="h-6 w-6 sm:h-4 sm:w-4" />}
             <a href={profile.url}>{profile.username}</a>
           </li>
         ))}

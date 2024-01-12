@@ -41,7 +41,7 @@ export const copyPDF = async (resume) => {
 };
 
 export const loadResume = async () => {
-  return parse(await fs.readFile("./src/content/resume.yaml", "utf8"));
+  return parse(await fs.readFile("./resume/resume.yaml", "utf8"));
 };
 
 export const modifyPDFProperties = async (resume) => {
