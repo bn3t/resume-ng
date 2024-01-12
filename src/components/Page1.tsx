@@ -1,5 +1,5 @@
-import { ProcessedResume } from "../resume";
-import Job from "../components/Job";
+import { ProcessedResume } from "../schema/resume";
+import Job from "./Job";
 
 interface Page1Props {
   work: ProcessedResume["page1"];

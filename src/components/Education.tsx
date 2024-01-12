@@ -1,4 +1,4 @@
-import { Resume } from "../resume";
+import { Resume } from "../schema/resume";
 import { formatDate } from "../utils/dates";
 import Title from "./Title";
 
@@ -15,7 +15,9 @@ const Education = ({ education }: EducationProps) => {
           <div className="flex flex-col">
             <h3 className="border-b-2 border-b-smo-blue-400 text-2xl font-semibold tracking-wide">{edu.institution}</h3>
             <div className="flex flex-row justify-between">
-              <div>{edu.studyType} {edu.area}</div>
+              <div>
+                {edu.studyType} {edu.area}
+              </div>
               <div className="self-end text-gray-600">
                 {formatDate(edu.startDate)} - {formatDate(edu.endDate)}
               </div>

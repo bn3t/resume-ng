@@ -1,0 +1,74 @@
+---
+// Supports weights 100-900
+import "@fontsource-variable/montserrat";
+// Supports only weight 400
+import "@fontsource-variable/league-gothic/standard.css";
+
+import "./index.css";
+
+import { ProcessedResume, Resume, resumeSchema } from "../schema/resume";
+
+import resumeYaml from "../content/resume.yaml";
+
+import Education from "../components/Education";
+import Page0 from "../components/Page0";
+import Page1 from "../components/Page1";
+import Page2 from "../components/Page2";
+
+const resume = resumeSchema.parse(resumeYaml) as Resume;
+
+const processedResume: ProcessedResume = {
+  ...resume,
+  current: resume.work.filter((w) => w.disposition === "current"),
+  page1: resume.work.filter((w) => w.disposition === "page1"),
+  page2: resume.work.filter((w) => w.disposition === "page2"),
+  page3: resume.work.filter((w) => w.disposition === "page3"),
+};
+---
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui" />
+    <link rel="icon" type="image/svg+xml" href="/logo-icon-16x16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content={`${resume.basics.name} - ${resume.basics.label}`} />
+    <meta property="og:description" content={`${resume.basics.summary}`} />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:type" content="profile" />
+    <meta name="author" content={`${resume.basics.name}`} />
+    <meta name="description" content={`${resume.basics.label}`} />
+    <title>
+      {resume.basics.name} - {resume.basics.label}
+    </title>
+  </head>
+  <body>
+    <nav
+      class="mx-auto flex max-w-7xl items-center justify-between p-6 shadow-sm print:hidden lg:px-8"
+      aria-label="Global"
+    >
+      <div class="flex flex-1 justify-end">
+        <a
+          href={`${processedResume.basics.name}.pdf`}
+          download
+          class="rounded-lg border border-smo-blue-700 bg-smo-blue-100 px-4 py-2 text-smo-blue-700"
+        >
+          Download as PDF
+        </a>
+      </div>
+    </nav>
+    <main
+      class="mx-auto space-y-4 p-16 shadow-lg print:m-0 print:w-full print:p-0 print:shadow-none sm:w-full lg:w-[800px]"
+    >
+      <Page0 basics={processedResume.basics} skills={processedResume.skills} current={processedResume.current} />
+      <div class="break-before-page">
+        <Page1 work={processedResume.page1} />
+      </div>
+      <div class="break-before-page">
+        <Page2 work={processedResume.page2} />
+        <Education education={processedResume.education} />
+      </div>
+    </main>
+  </body>
+</html>

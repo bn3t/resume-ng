@@ -4,16 +4,21 @@
   "version": "0.1.2",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npm run vite:build && start-server-and-test preview http://localhost:5173 export:puppeteer",
-    "vite:build": "tsc && vite build",
+    "build": "npm run astro:build && start-server-and-test preview http://localhost:5173 export:puppeteer",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "export:puppeteer": "node src/export.js",
-    "preview": "vite preview --port 5173"
+    "dev": "astro dev -p 5173",
+    "start": "astro dev",
+    "astro:build": "astro build",
+    "preview": "astro preview -p 5173"
   },
   "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@astrojs/react": "^3.0.9",
+    "@astrojs/tailwind": "^5.1.0",
     "@fontsource-variable/league-gothic": "^5.0.18",
     "@fontsource-variable/montserrat": "^5.0.17",
+    "astro": "^4.1.2",
     "clsx": "^2.0.0",
     "dayjs": "^1.11.10",
     "file-url": "^4.0.0",

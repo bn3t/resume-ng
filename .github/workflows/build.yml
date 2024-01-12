@@ -1,4 +1,4 @@
-name: Build with Vitejs
+name: Build with Astro
 
 on:
   push:
