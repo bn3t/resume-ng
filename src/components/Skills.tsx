@@ -1,4 +1,4 @@
-import { Resume } from "../resume";
+import { Resume } from "../schema/resume";
 import Title from "./Title";
 
 interface SkillsProps {

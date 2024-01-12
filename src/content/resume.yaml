@@ -44,8 +44,7 @@ work:
     highlights:
       - Development of a portal to manage transport partners
         legal documents.
-      - Forms to change options for shipments
-      - Parcelshop selection via a map
+      - Forms to change options for shipments and Parcelshop selection via a map
       - Track and trace features for parcels
       - Unit testing with react testing library
       - Integration testing with **playwright**
