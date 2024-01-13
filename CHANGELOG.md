@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/bn3t/resume-ng/compare/v1.0.0...v1.0.1) (2024-01-13)
+
+
+### Bug Fixes
+
+* move gh icon to the left and layout improvements ([#15](https://github.com/bn3t/resume-ng/issues/15)) ([c361684](https://github.com/bn3t/resume-ng/commit/c3616842f1b256cacce57d3c2b0f04eab018a237))
+
 ## [1.0.0](https://github.com/bn3t/resume-ng/compare/v0.1.3...v1.0.0) (2024-01-12)
 
 
