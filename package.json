@@ -11,7 +11,9 @@
     "dev": "astro dev",
     "start": "astro dev",
     "astro:build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "test:integration": "playwright test --config ./playwright-integration.config.ts",
+    "test:screenshots": "playwright test --config ./playwright-screenshots.config.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
@@ -33,7 +35,9 @@
   },
   "devDependencies": {
     "@modyfi/vite-plugin-yaml": "^1.0.4",
+    "@playwright/test": "^1.40.1",
     "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.11.0",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
