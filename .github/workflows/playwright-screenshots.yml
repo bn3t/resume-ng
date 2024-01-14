@@ -2,11 +2,12 @@ name: Playwright Integration Tests Screenshots
 
 on:
   workflow_run:
-    workflows: ["Playwright Integration Tests"]
+    workflows: [Build]
     types: [completed]
 
 jobs:
   test-screenshots:
+    needs: build
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     timeout-minutes: 60
     runs-on: ubuntu-latest
@@ -17,16 +18,33 @@ jobs:
           node-version: 20
           cache: "npm"
           cache-dependency-path: package-lock.json
-      - name: Download dist
-        uses: actions/download-artifact@v3
+      - name: "Download dist artifact"
+        uses: actions/github-script@v6
         with:
-          name: dist
+          script: |
+            let allArtifacts = await github.rest.actions.listWorkflowRunArtifacts({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               run_id: context.payload.workflow_run.id,
+            });
+            let matchArtifact = allArtifacts.data.artifacts.filter((artifact) => {
+              return artifact.name == "dist"
+            })[0];
+            let download = await github.rest.actions.downloadArtifact({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               artifact_id: matchArtifact.id,
+               archive_format: 'zip',
+            });
+            let fs = require('fs');
+            fs.writeFileSync(`${process.env.GITHUB_WORKSPACE}/dist.zip`, Buffer.from(download.data));
+      - name: "Unzip artifact"
+        run: unzip dist.zip -d dist
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
         run: npm run test:screenshots
       - uses: actions/upload-artifact@v3
-        if: always()
         with:
           name: playwright-report
           path: playwright-report-screenshots/
