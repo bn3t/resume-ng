@@ -21,7 +21,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "@fontsource-variable/league-gothic": "^5.0.18",
     "@fontsource-variable/montserrat": "^5.0.17",
-    "astro": "^4.1.2",
+    "astro": "^4.2.1",
     "clsx": "^2.0.0",
     "dayjs": "^1.11.10",
     "lucide-react": "^0.297.0",
@@ -42,7 +42,6 @@
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
-    "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
     "copy-file": "^11.0.0",
     "eslint": "^8.55.0",
@@ -56,7 +55,6 @@
     "start-server-and-test": "^2.0.3",
     "tailwindcss": "^3.3.6",
     "ts-node": "^10.9.2",
-    "typescript": "^5.2.2",
-    "vite": "4.5.0"
+    "typescript": "^5.2.2"
   }
 }
