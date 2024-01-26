@@ -7,6 +7,7 @@ This project is a sophisticated Resume Builder that harnesses the power of Astro
 - **Static Site Generation**: Built using Astro for fast loading and optimal performance.
 - **ReactJS Integration**: Leverages React components within Astro.
 - **TailwindCSS**: Utilizes TailwindCSS for elegant, responsive design with minimal effort.
+- **Dark Mode** + **responsive**: Enhances the user experience by providing a dark mode option for better readability in low-light environments. The responsive layout ensures that the resume website adapts to different screen sizes and devices, offering a seamless browsing experience for users.
 - **PDF Resume Export**: Provides the ability to generate a PDF version of the resume using Puppeteer and Chrome headless browser.
 - **YAML-based Configuration**: Easy to edit and maintain resume details using a YAML file that follows a customized JSONResume format.
 

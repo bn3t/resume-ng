@@ -46,7 +46,7 @@ const githubUrl = resume.basics.profiles.find((p) => p.network === "github")?.ur
       {resume.basics.name} - {resume.basics.label}
     </title>
   </head>
-  <body>
+  <body class="dark:bg-slate-900 dark:text-neutral-300">
     <Navigation name={processedResume.basics.name} githubUrl={`${githubUrl}/resume-ng`} />
     <main
       class="mx-auto space-y-4 p-16 shadow-lg print:m-0 print:w-full print:p-0 print:shadow-none sm:w-full lg:w-[800px]"
