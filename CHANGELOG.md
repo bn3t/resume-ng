@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/bn3t/resume-ng/compare/v1.0.1...v1.1.0) (2024-01-26)
+
+
+### Features
+
+* add support for dark mode ([#22](https://github.com/bn3t/resume-ng/issues/22)) ([20a2c74](https://github.com/bn3t/resume-ng/commit/20a2c7423d82353076c41fdabf90c30662c75a4e))
+
 ## [1.0.1](https://github.com/bn3t/resume-ng/compare/v1.0.0...v1.0.1) (2024-01-13)
 
 
