@@ -47,11 +47,13 @@ const AboutMe = ({ address, email, phone, postalCode, country, profiles, city, w
           </div>
         </li>
         {profiles.map((profile) => (
-          <li key={profile.network} className="flex flex-row items-center space-x-4 text-sm">
-            {profile.network === "linkedin" && <Linkedin className="h-6 w-6 sm:h-4 sm:w-4" />}
-            {profile.network === "twitter" && <Twitter className="h-6 w-6 sm:h-4 sm:w-4" />}
-            {profile.network === "github" && <Github className="h-6 w-6 sm:h-4 sm:w-4" />}
-            <a href={profile.url}>{profile.username}</a>
+          <li key={profile.network} className="text-sm">
+            <a href={profile.url} className="flex items-center space-x-4">
+              {profile.network === "linkedin" && <Linkedin className="h-6 w-6 sm:h-4 sm:w-4" />}
+              {profile.network === "twitter" && <Twitter className="h-6 w-6 sm:h-4 sm:w-4" />}
+              {profile.network === "github" && <Github className="h-6 w-6 sm:h-4 sm:w-4" />}
+              <div>{profile.username}</div>
+            </a>
           </li>
         ))}
       </ul>
