@@ -2,14 +2,30 @@ import typography from "@tailwindcss/typography";
 
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "media",
   content: ["./index.html", "./src/**/*.{astro,js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
       sans: ["Montserrat Variable", "sans-serif"],
     },
     extend: {
+      boxShadow: {
+        "dark-md": "0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -2px rgba(255, 255, 255, 0.1)", // Custom light shadow for dark mode
+      },
       colors: {
-        "smo-grey": "#898a8a",
+        "smo-grey": {
+          50: "#f5f6f6",
+          100: "#e6e7e7",
+          200: "#d0d1d1",
+          300: "#b0b0b0",
+          400: "#898a8a",
+          500: "#6c6d6e",
+          600: "#5d5d5d",
+          700: "#4f4f4f",
+          800: "#454545",
+          900: "#3c3d3d",
+          950: "#262626",
+        },
         "smo-brown": "#957f40",
         "smo-blue": {
           50: "#f0f5fe",
