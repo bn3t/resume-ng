@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/bn3t/resume-ng/compare/v1.1.0...v1.2.0) (2024-01-31)
+
+
+### Features
+
+* add language section to About Me ([#25](https://github.com/bn3t/resume-ng/issues/25)) ([b1109c2](https://github.com/bn3t/resume-ng/commit/b1109c2e2babdcc8adb258f8c36bf4450114f59e))
+
 ## [1.1.0](https://github.com/bn3t/resume-ng/compare/v1.0.1...v1.1.0) (2024-01-26)
 
 
