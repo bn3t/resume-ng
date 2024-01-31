@@ -2,15 +2,17 @@ import { ProcessedResume } from "../schema/resume";
 import AboutMe from "./AboutMe";
 import Experience from "./Experience";
 import Header from "./Header";
+import Languages from "./Languages";
 import Skills from "./Skills";
 
 interface Page0Props {
   basics: ProcessedResume["basics"];
   skills: ProcessedResume["skills"];
+  languages: ProcessedResume["languages"];
   current: ProcessedResume["current"];
 }
 
-const Page0 = ({ basics, skills, current }: Page0Props) => {
+const Page0 = ({ basics, skills, current, languages }: Page0Props) => {
   return (
     <>
       <Header name={basics.name} role={basics.label} summary={basics.summary} />
@@ -27,6 +29,7 @@ const Page0 = ({ basics, skills, current }: Page0Props) => {
             website={basics.website}
           />
           <Skills skills={skills} />
+          <Languages languages={languages} />
         </aside>
         <div className="w-full sm:w-4/5">
           <Experience work={current} />
