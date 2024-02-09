@@ -14,7 +14,8 @@ basics:
 
     ### Specialities
 
-    Expert in ReactJS, TypeScript, and JavaScript. Extensive experience in backend technologies, including Java, Spring, Hibernate, Web Services, and Cloud Computing.
+    Expert in ReactJS, TypeScript, and JavaScript. Extensive experience in backend 
+    technologies, including Java, Spring, Hibernate, Web Services, and Cloud Computing.
   phone: +32 479 529 195
   email: bn@smartobjects.be
   location:
@@ -37,23 +38,25 @@ work:
   - company: GLS Belgium
     disposition: current
     position: Senior Frontend Developer
-    description: Frontend development in ReactJS
+    description: Frontend development in ReactJS and TypeScript
     website: "https://mygls.be/en"
     startDate: "2022-09-01"
     methodology: Agile/Scrum
     summary: |
-      Development for the [MyGLS](https://mygls.be/en) project. Development of a new application
-      to manage transport partners registration.
+      Contributed to developing the [MyGLS](https://mygls.be/en) project, 
+      a web application that facilitates personalized shipment options and 
+      enables users to monitor and track their shipments with ease.
+      GLS partners with independent entities for shipment deliveries, maintaining 
+      responsibility for their compliance with legal standards related to company 
+      status, drivers, and vehicles. To support this, we developed an 
+      [application](https://partner.mygls.be/en/) 
+      that organizes and stores information on transport partners, drivers, 
+      vehicles, and their legal documentation.
     highlights:
-      - Development of a portal to manage transport partners
-        legal documents.
-      - Forms to change options for shipments and Parcelshop selection via a map
-      - Track and trace features for parcels
-      - Unit testing with react testing library
-      - Integration testing with **playwright**
-      - Screenshot integration testing with playwright
-      - Apply design choices coming from the marketing department
-      - Synchronize translations using **Phrase**.
+      - Frontend development using **ReactJS**, **TypeScript** and **NextJS**.
+      - Synchronize copywriting using [Phrase](https://phrase.com).
+      - Unit testing with react testing library.
+      - Integration and Screenshot testing with [Playwright](https://playwright.dev).
     technologies:
       - reactjs
       - zustand
@@ -64,33 +67,39 @@ work:
       - react-testing-library
       - playwright
       - vitejs
+      - nextjs
       - axios
       - leaflet
-      - sass
+      - openapi
       - tailwindcss
-      - i18next
+      - typesafe-i18n
   - company: EVS Broadcast Equipment
     disposition: current
     position: Senior Frontend Developer
-    description: Frontend development in ReactJS
+    description: Frontend development in ReactJS and TypeScript
     website: "https://evs.com/products/asset-workflow-management/ipd-via"
     startDate: "2021-05-01"
     endDate: "2022-08-31"
     methodology: Agile/Scrum
     summary: >-
-      Development for the [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via) project.
+      Contributed to the development of the Production Asset Management (PAM) 
+      [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via) project. 
+      This PAM software stands as an essential tool for television networks, 
+      streamlining the efficient management, organization, and accessibility of 
+      their digital content and media assets.
     highlights:
       - >-
         Development of a HiRes video player on the **Electron** platform. Interface with the in-house
         C++ video library via node n-api.
       - >-
         Development of a file ingest application (Electron + Web) for ingesting local
-        video files
+        video files.
       - >-
         Modernise the stack and port the application to latest versions of dependencies and tooling 
-        (ReactJS, Webpack, Electron, NodeJS, CRA)
+        (ReactJS, Webpack, Electron, NodeJS, CRA).
       - >-
-        Development of a video editing tool for FOX Sports US (ReactJS)
+        Development of a [video editing tool for FOX Sports US](https://evs.com/company/news/evs-launches-ipd-via-create) 
+        (ReactJS).
     technologies:
       - cucumber
       - cypress
@@ -117,10 +126,9 @@ work:
     endDate: "2021-04-30"
     methodology: Agile/Scrum
     summary: |
-      Developed the DIM application, enhancing data governance and data science 
-      capabilities using ReactJS and TypeScript. Authored OpenAPI definitions 
-      for backend integration, implemented frontend testing with Cypress, and 
-      enabled parallel development through mock backend tools.
+      Developed proprietary [Data Observability](https://www.kensu.io/product/features) software 
+      to help organizations ensure data quality, reliability, and integrity through 
+      comprehensive monitoring and analysis of their data ecosystem.
     highlights:
       - New features in the frontend using **ReactJS** and the **Antd Design System**.
       - >-
@@ -133,6 +141,7 @@ work:
       - apexcharts
       - axios
       - css/sass
+      - cra
       - cypress
       - enzyme
       - git
@@ -161,9 +170,14 @@ work:
     startDate: "2019-01-01"
     endDate: "2019-11-30"
     methodology: Agile/Scrum
-    summary: >-
-      Development for the 
-      [Online Banking Application (OLB)](https://onlinebanking.deutschebank.be/).
+    summary: |
+      I contributed to the development of the bank's 
+      [Online Banking application](https://onlinebanking.deutschebank.be/), a 
+      customer-facing platform that provides account holders with access to 
+      traditional banking features like checking account balances, viewing 
+      transaction history, and making payments. My specific contributions 
+      involved developing an innovative feature that enables users to link cards 
+      from other banks, as well as enhancing the user experience on the sign-in screens.
     highlights:
       - >-
         Card Linkage: allow users of OLB to link their third party cards to
@@ -242,7 +256,8 @@ work:
     summary: >-
       Development of applications for [Base Company](https://www.base.be/en/private.html).
     highlights:
-      - Fulstack Development in Java, **AngularJS** and **Angular** of features for the Base e-commerce website
+      - Fulstack Development in Java, **AngularJS** and **Angular** of features
+        for the Base e-commerce website
     technologies:
       - angular
       - angularjs
@@ -323,7 +338,7 @@ work:
     position: >-
       Senior Fullstack Developer - Application Architect - Dev Lead
     description: >-
-      Frontend and Backend development in JavaScript and Java with
+      Fullstack development in JavaScript and Java with
       Spring/Hibernate
     website: "https://centric.bnpparibas.com/public/marketing/"
     startDate: "2010-09-01"

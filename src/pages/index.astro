@@ -6,6 +6,8 @@ import "@fontsource-variable/league-gothic/standard.css";
 
 import "./_index.css";
 
+import packageJson from "../../package.json";
+
 import { ProcessedResume, Resume, resumeSchema } from "../schema/resume";
 
 import resumeYaml from "../../resume/resume.yaml";
@@ -27,6 +29,8 @@ const processedResume: ProcessedResume = {
 };
 
 const githubUrl = resume.basics.profiles.find((p) => p.network === "github")?.url;
+
+const version = packageJson.version;
 ---
 
 <html>
@@ -47,11 +51,16 @@ const githubUrl = resume.basics.profiles.find((p) => p.network === "github")?.ur
     </title>
   </head>
   <body class="dark:bg-slate-900 dark:text-neutral-300">
-    <Navigation name={processedResume.basics.name} githubUrl={`${githubUrl}/resume-ng`} />
+    <Navigation name={processedResume.basics.name} githubUrl={`${githubUrl}/resume-ng`} version={version} />
     <main
       class="mx-auto space-y-4 p-16 shadow-lg print:m-0 print:w-full print:p-0 print:shadow-none sm:w-full lg:w-[800px]"
     >
-      <Page0 basics={processedResume.basics} skills={processedResume.skills} current={processedResume.current} languages={processedResume.languages}/>
+      <Page0
+        basics={processedResume.basics}
+        skills={processedResume.skills}
+        current={processedResume.current}
+        languages={processedResume.languages}
+      />
       <div class="break-before-page">
         <Page1 work={processedResume.page1} />
       </div>

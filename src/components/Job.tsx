@@ -30,13 +30,15 @@ export const Job = ({ job, index, incolumns = false }: JobProps) => {
         </div>
       </div>
       {incolumns && <div className="text-xl italic">{job.description}</div>}
-      <div className="prose prose-cv mt-1 max-w-full leading-normal dark:prose-invert">
+      <div className="prose prose-cv mt-1 max-w-none leading-normal dark:prose-invert">
         <Markdown>{job.summary}</Markdown>
       </div>
       <ul className="ml-1 list-outside list-disc pl-4">
         {job.highlights?.map((highlight, i) => (
           <li key={`${highlight}-${i}`}>
-            <Markdown components={{ p: "span" }}>{highlight}</Markdown>
+            <Markdown className="prose prose-cv max-w-none dark:prose-invert" components={{ p: "span" }}>
+              {highlight}
+            </Markdown>
           </li>
         ))}
       </ul>
