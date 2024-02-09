@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/bn3t/resume-ng/compare/v1.2.0...v1.3.0) (2024-02-09)
+
+
+### Features
+
+* Improve to summary of frontend missions ([#28](https://github.com/bn3t/resume-ng/issues/28)) ([0553caa](https://github.com/bn3t/resume-ng/commit/0553caaa050c7ad102ed56e8a92fb0346c0d69c5))
+
 ## [1.2.0](https://github.com/bn3t/resume-ng/compare/v1.1.0...v1.2.0) (2024-01-31)
 
 
