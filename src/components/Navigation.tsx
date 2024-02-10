@@ -19,7 +19,9 @@ const Navigation = ({ name, githubUrl, version }: NavigationProps) => (
         <Github className="h-6 w-6 translate-y-[1px]" />
         <span className="sr-only">View this project on github</span>
       </a>
-      <div className="text-smo-blue-600 dark:text-smo-blue-400">Version: {version}</div>
+      <div id="version" className="text-smo-blue-600 dark:text-smo-blue-400">
+        Version: {version}
+      </div>
     </div>
 
     <div className="flex items-center justify-end space-x-4">
