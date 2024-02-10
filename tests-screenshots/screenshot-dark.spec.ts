@@ -10,6 +10,6 @@ describe("Screenshot Dark", () => {
   test("Screenshot dark mode", async ({ page }) => {
     await page.goto("http://localhost:5173");
 
-    await expect(page).toHaveScreenshot({ fullPage: true });
+    await expect(page).toHaveScreenshot({ fullPage: true, mask: [page.locator("#version")] });
   });
 });
