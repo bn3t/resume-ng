@@ -53,7 +53,8 @@ work:
       that organizes and stores information on transport partners, drivers, 
       vehicles, and their legal documentation.
     highlights:
-      - Frontend development using **ReactJS**, **TypeScript** and **NextJS**.
+      - Frontend development using [**ReactJS**](https://react.dev/), **TypeScript**
+        and [**NextJS**](https://nextjs.org/) and [ant-design](https://ant.design/).
       - Synchronize copywriting using [Phrase](https://phrase.com).
       - Unit testing with react testing library.
       - Integration and Screenshot testing with [Playwright](https://playwright.dev).
@@ -89,14 +90,15 @@ work:
       their digital content and media assets.
     highlights:
       - >-
-        Development of a HiRes video player on the **Electron** platform. Interface with the in-house
-        C++ video library via node n-api.
+        Development of a HiRes video player on the [**Electron**](https://www.electronjs.org/) platform. 
+        Interface with the in-house C++ video library via node n-api.
       - >-
-        Development of a file ingest application (Electron + Web) for ingesting local
-        video files.
+        Development of a file ingest application ([Electron](https://www.electronjs.org/) + Web) 
+        for ingesting local video files.
       - >-
         Modernise the stack and port the application to latest versions of dependencies and tooling 
-        (ReactJS, Webpack, Electron, NodeJS, CRA).
+        ([ReactJS](https://react.dev/), [Webpack](https://webpack.js.org/), [Electron](https://www.electronjs.org/), 
+        NodeJS, [CRA](https://create-react-app.dev/)).
       - >-
         Development of a [video editing tool for FOX Sports US](https://evs.com/company/news/evs-launches-ipd-via-create) 
         (ReactJS).
@@ -130,11 +132,12 @@ work:
       to help organizations ensure data quality, reliability, and integrity through 
       comprehensive monitoring and analysis of their data ecosystem.
     highlights:
-      - New features in the frontend using **ReactJS** and the **Antd Design System**.
+      - New features in the frontend using [ReactJS](https://react.dev/) and the
+        [**Antd Design System**](https://ant.design/).
       - >-
-        Write **OpenAPI** (swagger) definitions to specify the interface with
+        Write [**OpenAPI**](https://swagger.io/specification/) (swagger) definitions to specify the interface with
         the backend.
-      - Frontend testing with **Cypress** and **Wiremock**.
+      - Frontend testing with [**Cypress**](https://www.cypress.io/) and [**Wiremock**](https://wiremock.org/).
       - Mock implementation of the backend to allow for parallel development
     technologies:
       - ant-design
@@ -186,7 +189,7 @@ work:
       - Admin application used by internal bank users
       - Code reviews (PRs) of frontend and backend code
       - Mock implementation of the backend to allow for parallel development
-      - Frontend Testing with **Cypress** and **Wiremock**.
+      - Frontend Testing with [**Cypress**](https://www.cypress.io/) and [**Wiremock**](https://wiremock.org/).
     technologies:
       - angular
       - cypress
@@ -204,9 +207,9 @@ work:
       Development for the [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via) project.
     highlights:
       - Development of a Workflow Management UI.
-      - Development of a HiRes video player on the **Electron** platform.
+      - Development of a HiRes video player on the [**Electron**](https://www.electronjs.org/) platform.
       - >-
-        Development of a file ingest application (**Electron** + **Web**) for ingesting local
+        Development of a file ingest application ([**Electron**](https://www.electronjs.org/) + **Web**) for ingesting local
         video files
     technologies:
       - cucumber
@@ -234,7 +237,8 @@ work:
     highlights:
       - >-
         Development of a **Transfer Agent** for transfering files from/to ftp, sftp,
-        AWS S3, Aspera, File Catalyst, Tape storage.
+        [AWS S3](https://aws.amazon.com/s3/getting-started/), [Aspera](https://www.ibm.com/products/aspera), 
+        File Catalyst, Tape storage.
       - >-
         Automation test framework for integration testing the Transfer Agent, 
         using **docker** and **docker-compose**.
@@ -256,8 +260,8 @@ work:
     summary: >-
       Development of applications for [Base Company](https://www.base.be/en/private.html).
     highlights:
-      - Fulstack Development in Java, **AngularJS** and **Angular** of features
-        for the Base e-commerce website
+      - Fulstack Development in Java, [**AngularJS**](https://angularjs.org/) and
+        [**Angular**](https://angular.io/) of features for the Base e-commerce website
     technologies:
       - angular
       - angularjs
@@ -282,10 +286,13 @@ work:
       Managed server provisioning, network configuration, and WebSphere setup. 
       Oversaw application security, roles, and **SQL** script implementation. 
       Mentored the development team on technical decisions and coding practices, 
-      and facilitated test automation with tools like **Cucumber-Java**. 
+      and facilitated test automation with tools like 
+      [**Cucumber-Java**](https://cucumber.io/docs/installation/java/). 
 
       Worked within an Agile/Scrum methodology, utilizing technologies such as 
-      **Hibernate**, **Java**, **Oracle**, **Spring** and **WebSphere**.
+      [**Hibernate**](https://hibernate.org/), [**Java**](https://www.java.com/en/), 
+      [**Oracle**](https://www.oracle.com/be/), [**Spring**](https://spring.io/) and
+      [**WebSphere**](https://www.ibm.com/products/websphere-application-server).
     highlights:
       - Follow-up infrastructure provisioning of servers
       - Follow-up configuration of network routing
@@ -305,6 +312,7 @@ work:
       - spring
       - tdd
       - websphere
+      - liquibase
   - company: Takeeateasy.be
     disposition: page1
     position: Senior Fullstack Developer
@@ -319,9 +327,9 @@ work:
       managed AWS hosting.
     highlights:
       - Frontend web development in **JavaScript** and **TypeScript**
-      - iOS development for iPhone in **Swift**
-      - Backend development (**Spring**, **Spring MVC**, **Spring Boot**)
-      - Manage the Application hosted on **AWS** (S3, RDS, Elastic Beanstalk)
+      - iOS development for iPhone in [**Swift**](https://developer.apple.com/swift/)
+      - Backend development with [**Spring**](https://spring.io/)
+      - Manage the Application hosted on [**AWS**](https://aws.amazon.com) (S3, RDS, Elastic Beanstalk)
     technologies:
       - java
       - javascript
@@ -333,6 +341,7 @@ work:
       - angularjs
       - typescript
       - swift
+      - liquibase
   - company: BNP Paribas
     disposition: page1
     position: >-
@@ -365,6 +374,7 @@ work:
       - spring
       - websphere
       - wicket
+      - liquibase
   - company: Electrabel - Engie
     disposition: page2
     position: Senior Software Developer
@@ -375,8 +385,9 @@ work:
     methodology: Waterfall
     summary: >-
       Contributed to the ETRM project, focusing on backend J2EE development and BPMN for 
-      energy trading applications. Developed components using **Java**, **Spring**, and **Hibernate**, 
-      and implemented workflows. Utilized technologies such as Wicket, Jasper Reports, 
+      energy trading applications. Developed components using [**Java**](https://www.java.com/en/), 
+      [**Spring**](https://spring.io/), and [**Hibernate**](https://hibernate.org/), 
+      implemented workflows. Utilized technologies such as Wicket, Jasper Reports, 
       JBoss, Oracle, Ant, and SVN within a Waterfall methodology framework.
     highlights: []
     technologies:
@@ -421,8 +432,8 @@ work:
     methodology: Extreme Programming
     summary: >-
       DVB-RCS Project. Development of the network Hub management application
-      (Customer Configuration Management Tool). J2EE Java Development with **Jboss**
-      / **Hibernate** / **Spring** on Linux/Windows.
+      (Customer Configuration Management Tool). J2EE Java Development with [**Jboss**](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)
+      / [**Hibernate**](https://hibernate.org/) / [**Spring**](https://spring.io/) on Linux/Windows.
     highlights: []
     technologies:
       - j2ee
@@ -444,8 +455,8 @@ work:
     summary: >
       Development of a redirection system for bad requests done by ISPs Internet users. Design, 
       development and technical support of the complete IT infrastructure following the 
-      requirements provided by the customer. The redirection engine is written in **C++** and 
-      **Python**, the administrator part is a web site written in **J2EE**.
+      requirements provided by the customer. The redirection engine is written in [**C++**](https://en.cppreference.com/w/) and 
+      [**Python**](https://www.python.org/), the administrator part is a web site written in **J2EE**.
     highlights: []
     technologies:
       - c/c++
@@ -460,6 +471,7 @@ work:
       - tomcat
       - jboss
       - postgresql
+      - python
   - company: IBM Belgium
     disposition: page2
     position: Senior Software Developer and Team Leader
@@ -469,10 +481,13 @@ work:
     endDate: "2003-06-01"
     methodology: Waterfall
     summary: >-
-      Part of the GUI development for the CLS Bank system, ensuring cross-platform compatibility across
-       Windows NT and AIX. Led the design and enhancement of a complex **MFC/STL** application and a 
-       **C++** API. Mentored a team of 6, improved code quality, provided **AIX** support, and developed 
-       a **Java**-based system monitoring tool.
+      Part of the GUI development for the [CLS Bank](https://www.cls-group.com/) system, ensuring 
+      cross-platform compatibility across Windows NT and [AIX](https://www.ibm.com/products/aix). 
+      Led the design and enhancement of a complex 
+      [**MFC/STL**](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170) 
+      application and a [**C++**](https://en.cppreference.com/w/) API. Mentored a team of 6, improved code quality, provided 
+      [**AIX**](https://www.ibm.com/products/aix) support, and developed 
+      a [**Java**](https://www.java.com/en/) based system monitoring tool.
     highlights: []
     technologies:
       - windows
@@ -498,8 +513,9 @@ work:
       Senior Software Developer and Team Leader with a strong track record from 
       1991-2000, specializing in the development of web and distributed applications, 
       EDM systems, and workflow solutions. Led and contributed to key projects in a 
-      range of environments, utilizing technologies such as **C**, **C++**, **Java** and 
-      **Python** across **Windows**, **UNIX** and **Linux** platforms. 
+      range of environments, utilizing technologies such as [**C**](https://en.cppreference.com/w/c), [**C++**](https://en.cppreference.com/w/), 
+      [**Java**](https://www.java.com/en/) and [**Python**](https://www.python.org/) 
+      across **Windows**, **UNIX** and **Linux** platforms. 
 
       Demonstrated expertise in database management and development tools, 
       delivering scalable solutions in telecom, document management, 

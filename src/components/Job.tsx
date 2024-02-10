@@ -1,8 +1,8 @@
 import clsx from "clsx";
-import Markdown from "react-markdown";
 
 import { Resume } from "../schema/resume";
 import { formatDate } from "../utils/dates";
+import CustomMarkdown from "./CustomMarkdown";
 
 interface JobProps {
   job: Resume["work"][0];
@@ -30,15 +30,13 @@ export const Job = ({ job, index, incolumns = false }: JobProps) => {
         </div>
       </div>
       {incolumns && <div className="text-xl italic">{job.description}</div>}
-      <div className="prose prose-cv mt-1 max-w-none leading-normal dark:prose-invert">
-        <Markdown>{job.summary}</Markdown>
-      </div>
+      <CustomMarkdown className="mt-1 max-w-none leading-normal">{job.summary}</CustomMarkdown>
       <ul className="ml-1 list-outside list-disc pl-4">
         {job.highlights?.map((highlight, i) => (
           <li key={`${highlight}-${i}`}>
-            <Markdown className="prose prose-cv max-w-none dark:prose-invert" components={{ p: "span" }}>
+            <CustomMarkdown className="max-w-none" pAsSpan>
               {highlight}
-            </Markdown>
+            </CustomMarkdown>
           </li>
         ))}
       </ul>
