@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/bn3t/resume-ng/compare/v1.3.1...v1.3.2) (2024-02-10)
+
+
+### Bug Fixes
+
+* fixes to github actions [skip netlify] ([6004f8f](https://github.com/bn3t/resume-ng/commit/6004f8fc54fcc885ce285a36cc87e517a081bb51))
+
 ## [1.3.1](https://github.com/bn3t/resume-ng/compare/v1.3.0...v1.3.1) (2024-02-10)
 
 
