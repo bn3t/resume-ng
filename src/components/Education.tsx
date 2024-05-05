@@ -7,7 +7,7 @@ interface EducationProps {
 }
 
 const Education = ({ education }: EducationProps) => (
-  <div className="mt-4">
+  <div className="mt-4 break-inside-avoid">
     <Title title="Education" />
     {education.map((edu, i) => (
       <div key={`${edu.institution}-${i}`} className="mt-4">
