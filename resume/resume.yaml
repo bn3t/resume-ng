@@ -1,21 +1,24 @@
 basics:
   name: Bernard Niset
-  label: Senior Frontend Developer (Freelance)
+  label: Senior Fullstack Developer (Freelance)
   summary: |
-    As a Senior Software Engineer, I bring an extensive background in Java-based 
-    backend services. Recently, I have pivoted to specialize in contemporary 
-    frontend development, harnessing the power of the ReactJS JavaScript framework 
-    to build dynamic user interfaces.
+    As a Senior Fullstack Engineer, I utilize a strong background in Java-based backend 
+    services combined with extensive experience in modern frontend technologies. My recent 
+    shift to fullstack development allows me to apply my thorough knowledge of the Java Platform
+    and harness the capabilities of the Angular framework to create interactive and 
+    responsive user interfaces.
 
-    Testing forms a cornerstone of my development methodology. I am proficient 
-    in systematic unit testing and utilize sophisticated integration tools such 
-    as Cypress and Playwright for comprehensive application testing and backend 
-    simulation.
+    Testing continues to be a critical component of my development process. I am proficient 
+    in systematic unit testing and adept at using advanced integration tools such as 
+    Cypress and Playwright, which are essential for thorough application testing and 
+    effective backend simulation.
 
-    ### Specialities
+    ### Specialties
 
-    Expert in ReactJS, TypeScript, and JavaScript. Extensive experience in backend 
-    technologies, including Java, Spring, Hibernate, Web Services, and Cloud Computing.
+    Strong expertise in Angular, TypeScript, and JavaScript. Comprehensive experience in 
+    backend technologies, including Java, Spring, Hibernate, Web Services, and Cloud 
+    Computing. My approach focuses on integrating innovative frontend techniques with 
+    robust backend solutions to deliver superior outcomes for clients.
   phone: +32 479 529 195
   email: bn@smartobjects.be
   location:
@@ -35,12 +38,29 @@ basics:
       username: bn3t
       url: https://github.com/bn3t
 work:
+  - company: RVA-ONEM (via 5thfloor)
+    disposition: current
+    position: Senior Fullstack Developer
+    description: Fullstack development in Angular and Java
+    website: "https://www.onem.be"
+    startDate: "2024-04-01"
+    methodology: Agile/Scrum
+    summary: >-
+      Working on admissibility and temporary unemployment projects for the
+      [RVA-ONEM](https://www.onem.be) organization.
+    technologies:
+      - angular
+      - java
+      - spring boot
+      - hibernate
+      - typescript
   - company: GLS Belgium
     disposition: current
     position: Senior Frontend Developer
     description: Frontend development in ReactJS and TypeScript
     website: "https://mygls.be/en"
     startDate: "2022-09-01"
+    endDate: "2024-03-31"
     methodology: Agile/Scrum
     summary: |
       Contributed to developing the [MyGLS](https://mygls.be/en) project, 
@@ -120,7 +140,7 @@ work:
       - node-gyp
       - node-napi
   - company: Kensu
-    disposition: current
+    disposition: page1
     position: Senior Frontend Developer
     description: Frontend development in ReactJS and TypeScript
     website: https://www.kensu.io
@@ -314,7 +334,7 @@ work:
       - websphere
       - liquibase
   - company: Takeeateasy.be
-    disposition: page1
+    disposition: page2
     position: Senior Fullstack Developer
     description: Developed consumer apps; web, mobile, cloud in Agile team.
     startDate: "2015-10-01"
@@ -343,7 +363,7 @@ work:
       - swift
       - liquibase
   - company: BNP Paribas
-    disposition: page1
+    disposition: page2
     position: >-
       Senior Fullstack Developer - Application Architect - Dev Lead
     description: >-
