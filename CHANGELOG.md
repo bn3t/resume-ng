@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/bn3t/resume-ng/compare/v1.3.2...v1.4.0) (2024-05-05)
+
+
+### Features
+
+* Add rva-onem to experiences ([#36](https://github.com/bn3t/resume-ng/issues/36)) ([78b309f](https://github.com/bn3t/resume-ng/commit/78b309f74c1b2bef509208d52f0fbc843d728ed9))
+
 ## [1.3.2](https://github.com/bn3t/resume-ng/compare/v1.3.1...v1.3.2) (2024-02-10)
 
 
