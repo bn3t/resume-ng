@@ -1,6 +1,6 @@
 {
 	"name": "Playwright",
-	"image": "mcr.microsoft.com/playwright:v1.43.0-jammy",
+	"image": "mcr.microsoft.com/playwright:v1.44.1-jammy",
 	"mounts": [
 		"source=dot-vscode,target=${containerWorkspaceFolder}/.vscode,type=volume",
 		"source=resume_ng_node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
