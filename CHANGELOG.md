@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/bn3t/resume-ng/compare/v1.4.0...v1.4.1) (2024-06-22)
+
+
+### Bug Fixes
+
+* upgrade project to fix vulnerabilities ([#39](https://github.com/bn3t/resume-ng/issues/39)) ([a53afde](https://github.com/bn3t/resume-ng/commit/a53afdee830868226daed4a40b8e968c51648aa4))
+
 ## [1.4.0](https://github.com/bn3t/resume-ng/compare/v1.3.2...v1.4.0) (2024-05-05)
 
 
