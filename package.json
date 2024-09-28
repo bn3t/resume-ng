@@ -16,12 +16,12 @@
     "test:screenshots": "playwright test --config ./playwright-screenshots.config.ts"
   },
   "dependencies": {
-    "@astrojs/check": "^0.7.0",
-    "@astrojs/react": "^3.6.0",
-    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/check": "^0.9.3",
+    "@astrojs/react": "^3.6.2",
+    "@astrojs/tailwind": "^5.1.1",
     "@fontsource-variable/league-gothic": "^5.0.20",
     "@fontsource-variable/montserrat": "^5.0.19",
-    "astro": "^4.11.0",
+    "astro": "^4.15.9",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.11",
     "lucide-react": "^0.396.0",
@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@modyfi/vite-plugin-yaml": "^1.1.0",
-    "@playwright/test": "^1.44.1",
+    "@playwright/test": "^1.47.2",
     "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^20.14.7",
     "@types/react": "^18.3.3",
