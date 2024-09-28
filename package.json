@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@modyfi/vite-plugin-yaml": "^1.1.0",
-    "@playwright/test": "^1.44.1",
+    "@playwright/test": "^1.47.2",
     "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^20.14.7",
     "@types/react": "^18.3.3",
