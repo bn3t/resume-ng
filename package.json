@@ -21,7 +21,7 @@
     "@astrojs/tailwind": "^5.1.1",
     "@fontsource-variable/league-gothic": "^5.0.20",
     "@fontsource-variable/montserrat": "^5.0.19",
-    "astro": "^4.15.9",
+    "astro": "^4.16.18",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.11",
     "lucide-react": "^0.396.0",
