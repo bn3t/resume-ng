@@ -48,12 +48,48 @@ work:
     summary: >-
       Working on admissibility and temporary unemployment projects for the
       [RVA-ONEM](https://www.onem.be) organization.
+    highlights:
+      - Backend development with Spring Boot / Hibernate / Microsoft SQL Server
+      - Frontend development with Angular / TypeScript / RxJS
+      - Testing with Cypress / Playwright
+      - DevOps with Bamboo / Docker / Kubernetes / Helm / Openshift
     technologies:
       - angular
+      - java
+      - kotlin
+      - spring boot
+      - hibernate
+      - typescript
+      - mssql
+      - openapi
+      - cypress
+      - playwright
+      - docker
+      - kubernetes
+      - openshift
+      - helm
+  - company: Ecole-IT
+    disposition: current
+    position: Engineering School Teacher
+    description: ReactJS / Spring Boot / Database
+    website: "https://ecole-it.com"
+    startDate: "2023-09-01"
+    endDate: "2024-06-30"
+    methodology: Teaching / Live coding / Exercises
+    summary: >-
+      Teaching software engineering courses to master's degree students at [**Ecole-IT**](https://ecole-it.com), 
+      focusing on modern web development and database design.
+    highlights:
+      - Database modeling and implementation using the Merise methodology
+      - Building scalable APIs and microservices with Spring Boot, Java, and Hibernate
+      - Modern frontend development using ReactJS and TypeScript
+    technologies:
+      - reactjs
       - java
       - spring boot
       - hibernate
       - typescript
+      - database
   - company: GLS Belgium
     disposition: current
     position: Senior Frontend Developer
@@ -95,7 +131,7 @@ work:
       - tailwindcss
       - typesafe-i18n
   - company: EVS Broadcast Equipment
-    disposition: current
+    disposition: page1
     position: Senior Frontend Developer
     description: Frontend development in ReactJS and TypeScript
     website: "https://evs.com/products/asset-workflow-management/ipd-via"
@@ -293,7 +329,7 @@ work:
       - maven
       - oracle
   - company: BNP Paribas Fortis
-    disposition: page1
+    disposition: page2
     position: Senior Developer, Technical Architect, and IT Integrator
     description: Managed deployment and integration for Scrum team projects.
     website: "https://www.bnpparibasfortis.be"
@@ -523,7 +559,7 @@ work:
       - xslt
       - xml-rpc
   - company: "Various Companies - France, Belgium"
-    disposition: page2
+    disposition: page3
     position: Senior Developer and Team Leader
     description: Windows and Unix Development in C++
     startDate: "1991-01-01"
@@ -746,6 +782,7 @@ skills:
       - TypeScript
       - JavaScript
       - Java
+      - Kotlin
       - C/C++
   - name: Java Ecosystem
     level: Master
@@ -756,6 +793,7 @@ skills:
     level: Master
     keywords:
       - PostgreSQL
+      - Mssql
       - Oracle
       - MySQL/MariaDB
   - name: Tooling
