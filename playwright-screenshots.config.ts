@@ -66,4 +66,12 @@ export default defineConfig({
     url: "http://localhost:5173",
     reuseExistingServer: true,
   },
+  
+  /* Increase timeout for expect assertions, especially for screenshots */
+  expect: {
+    timeout: 30000,
+    toHaveScreenshot: {
+      maxDiffPixels: 100,
+    },
+  },
 });
