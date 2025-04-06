@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/bn3t/resume-ng/compare/v1.4.1...v1.5.0) (2025-04-06)
+
+
+### Features
+
+* Improve 5thfloor desc ([#45](https://github.com/bn3t/resume-ng/issues/45)) ([c685f76](https://github.com/bn3t/resume-ng/commit/c685f76e009d2a9a7dafac7c0aa023dd3c9386bc))
+
 ## [1.4.1](https://github.com/bn3t/resume-ng/compare/v1.4.0...v1.4.1) (2024-06-22)
 
 
