@@ -16,12 +16,12 @@
     "test:screenshots": "playwright test --config ./playwright-screenshots.config.ts"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.3",
-    "@astrojs/react": "^3.6.2",
-    "@astrojs/tailwind": "^5.1.1",
+    "@astrojs/check": "^0.9.5",
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/tailwind": "^6.0.2",
     "@fontsource-variable/league-gothic": "^5.0.20",
     "@fontsource-variable/montserrat": "^5.0.19",
-    "astro": "^4.16.18",
+    "astro": "^5.16.0",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.11",
     "lucide-react": "^0.396.0",
