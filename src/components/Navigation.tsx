@@ -28,6 +28,11 @@ const Navigation = ({ name, githubUrl, version }: NavigationProps) => (
       <a
         href={`${name}.pdf`}
         download
+        onClick={() => {
+          if (typeof window !== "undefined" && window.posthog) {
+            window.posthog.capture("download_resume");
+          }
+        }}
         className="rounded-lg border border-smo-blue-700 bg-smo-blue-100 px-4 py-2 text-smo-blue-700 dark:border-smo-blue-500 dark:bg-smo-blue-900 dark:text-smo-blue-50"
       >
         Download as PDF
