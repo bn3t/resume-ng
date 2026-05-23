@@ -14,7 +14,7 @@ const Languages = ({ languages }: LanguagesProps) => {
         {languages.map((language) => (
           <li
             key={language.language}
-            className="mb-1 mr-2 rounded-md bg-smo-blue-100 px-2 py-1 dark:bg-smo-blue-900 dark:text-smo-blue-50"
+            className="mr-2 mb-1 rounded-md bg-smo-blue-100 px-2 py-1 dark:bg-smo-blue-900 dark:text-smo-blue-50"
           >
             {language.language}&nbsp;
             <span className="text-neutral-600 dark:text-smo-blue-400">({language.fluency})</span>

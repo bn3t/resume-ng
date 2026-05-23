@@ -8,7 +8,7 @@ interface NavigationProps {
 
 const Navigation = ({ name, githubUrl, version }: NavigationProps) => (
   <nav
-    className="sticky top-0 mx-auto mb-4 flex max-w-7xl items-center justify-between bg-white p-6 shadow-md dark:bg-slate-900 dark:shadow-dark-md print:hidden lg:px-8"
+    className="sticky top-0 mx-auto mb-4 flex max-w-7xl items-center justify-between bg-white p-6 shadow-md lg:px-8 dark:bg-slate-900 dark:shadow-dark-md print:hidden"
     aria-label="Navigation"
   >
     <div className="flex flex-row items-center space-x-4">
