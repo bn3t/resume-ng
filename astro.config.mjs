@@ -1,16 +1,14 @@
 import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import ViteYaml from "@modyfi/vite-plugin-yaml";
-
-// import netlify from "@astrojs/netlify";
+import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), react()],
+  integrations: [react()],
   output: "static",
   vite: {
-    plugins: [ViteYaml()],
+    plugins: [ViteYaml(), tailwindcss()],
   },
   server: {
     port: 5173,

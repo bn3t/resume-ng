@@ -44,7 +44,7 @@ export const Job = ({ job, index, incolumns = false }: JobProps) => {
         {job.technologies?.map((technology, i) => (
           <li
             key={`${technology}-${i}`}
-            className="mb-2 mr-2 inline-block rounded-md bg-smo-blue-100 px-2 text-sm tracking-tighter text-gray-700 dark:bg-smo-blue-900 dark:text-smo-blue-50"
+            className="mr-2 mb-2 inline-block rounded-md bg-smo-blue-100 px-2 text-sm tracking-tighter text-gray-700 dark:bg-smo-blue-900 dark:text-smo-blue-50"
           >
             {technology}
           </li>

@@ -16,7 +16,7 @@ const Skills = ({ skills }: SkillsProps) => (
           {skill.keywords.map((keyword) => (
             <li
               key={keyword}
-              className="mb-1 mr-2 rounded-md bg-smo-blue-100 px-2 py-1 dark:bg-smo-blue-900 dark:text-smo-blue-50"
+              className="mr-2 mb-1 rounded-md bg-smo-blue-100 px-2 py-1 dark:bg-smo-blue-900 dark:text-smo-blue-50"
             >
               {keyword}
             </li>
