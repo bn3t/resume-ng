@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.6.0](https://github.com/bn3t/resume-ng/compare/v1.5.0...v1.6.0) (2026-05-23)
+
+
+### Features
+
+* Introduce PostHog for analytics tracking ([#49](https://github.com/bn3t/resume-ng/issues/49)) ([6f9dd82](https://github.com/bn3t/resume-ng/commit/6f9dd82b03e4433f8f26d06a90ad71c4012412f9))
+
+
+### Bug Fixes
+
+* address 10 security vulnerabilities ([#51](https://github.com/bn3t/resume-ng/issues/51)) ([a7a2bcb](https://github.com/bn3t/resume-ng/commit/a7a2bcb63bb8ad6ec00241e09f485947a959009a))
+* address high severity vulnerabilities in axios and vite ([#56](https://github.com/bn3t/resume-ng/issues/56)) ([f66ab23](https://github.com/bn3t/resume-ng/commit/f66ab23d59f193c2c3c2f9a1db9e58e903ecec8f))
+* **ci:** update release-please runner to ubuntu-24.04 ([#54](https://github.com/bn3t/resume-ng/issues/54)) ([d18d9be](https://github.com/bn3t/resume-ng/commit/d18d9befc42489b8787983c9be39c4de9d5b2a58))
+* Upgrade Astro to 5.16.0 to fix server islands XSS vulnerability (CVE-2025-64764) ([#48](https://github.com/bn3t/resume-ng/issues/48)) [skip netlify] ([7996919](https://github.com/bn3t/resume-ng/commit/79969190096e35fdce56f4e5db413b0a2827eb4b))
+
 ## [1.5.0](https://github.com/bn3t/resume-ng/compare/v1.4.1...v1.5.0) (2025-04-06)
 
 
