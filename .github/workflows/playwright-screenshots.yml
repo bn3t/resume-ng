@@ -32,12 +32,13 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
+        continue-on-error: ${{ github.event_name == 'workflow_dispatch' && inputs.update_snapshots == true }}
         run: npm run test:screenshots
       - name: Update snapshots
-        if: github.event_name == 'workflow_dispatch' && inputs.update_snapshots
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.update_snapshots
         run: npm run test:screenshots -- --update-snapshots
       - name: Commit updated snapshots
-        if: github.event_name == 'workflow_dispatch' && inputs.update_snapshots
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.update_snapshots
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
