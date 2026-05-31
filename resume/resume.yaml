@@ -46,13 +46,13 @@ work:
     startDate: "2024-04-01"
     methodology: Agile/Scrum
     summary: >-
-      Working on admissibility and temporary unemployment projects for the
+      Working on admissibility and complete unemployment projects for the
       [RVA-ONEM](https://www.onem.be) organization.
     highlights:
       - Backend development with Spring Boot / Hibernate / Microsoft SQL Server
       - Frontend development with Angular
-      - Testing with Cypress / Playwright
-      - DevOps with Azure DevOps / Bamboo / Docker / Kubernetes / Helm / Openshift
+      - Frontend testing with Cypress
+      - DevOps with Azure DevOps / Docker / Kubernetes / Helm / Openshift / Grafana / Kibana
     technologies:
       - angular
       - java
@@ -69,6 +69,8 @@ work:
       - openshift
       - helm
       - azure-devops
+      - grafana
+      - kibana
   - company: Ecole-IT
     disposition: current
     position: Engineering School Teacher
