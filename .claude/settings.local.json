@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(npm view:*)",
-      "Bash(npm uninstall:*)"
+      "Bash(npm uninstall:*)",
+      "Bash(gh pr *)",
+      "Bash(gh run *)",
+      "Bash(npx playwright *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }

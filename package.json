@@ -16,11 +16,11 @@
     "test:screenshots": "playwright test --config ./playwright-screenshots.config.ts"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.6",
-    "@astrojs/react": "^4.4.2",
+    "@astrojs/check": "^0.9.9",
+    "@astrojs/react": "^5.0.7",
     "@fontsource-variable/league-gothic": "^5.2.8",
     "@fontsource-variable/montserrat": "^5.2.8",
-    "astro": "^5.16.8",
+    "astro": "^6.4.4",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.19",
     "lucide-react": "^0.562.0",
@@ -31,6 +31,12 @@
     "react-markdown": "^9.0.1",
     "yaml": "^2.8.2",
     "zod": "^4.3.5"
+  },
+  "overrides": {
+    "js-yaml": "^4.2.0",
+    "yaml-language-server": {
+      "yaml": "^2.9.0"
+    }
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
@@ -50,7 +56,6 @@
     "eslint-plugin-react-refresh": "^0.4.26",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "puppeteer-cli": "^1.7.0",
     "start-server-and-test": "^2.1.3",
     "tailwindcss": "^4.1.18",
     "ts-node": "^10.9.2",
