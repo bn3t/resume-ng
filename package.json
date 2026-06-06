@@ -41,7 +41,7 @@
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "@modyfi/vite-plugin-yaml": "^1.1.1",
-    "@playwright/test": "^1.57.0",
+    "@playwright/test": "^1.60.0",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.18",
     "@types/node": "^25.0.6",
