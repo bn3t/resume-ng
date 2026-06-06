@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/bn3t/resume-ng/compare/v1.6.0...v1.7.0) (2026-06-06)
+
+
+### Features
+
+* **deps:** upgrade Astro to v6 and React integration with dependency overrides ([#58](https://github.com/bn3t/resume-ng/issues/58)) ([e7b1ce3](https://github.com/bn3t/resume-ng/commit/e7b1ce39bd1422ee090cc6d0baeb8c3d25d69a4a))
+
 ## [1.6.0](https://github.com/bn3t/resume-ng/compare/v1.5.0...v1.6.0) (2026-05-23)
 
 
