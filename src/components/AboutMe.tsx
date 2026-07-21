@@ -21,7 +21,7 @@ const AboutMe = ({ address, email, phone, postalCode, country, profiles, city, w
 
       <ul className="grid grid-cols-2 justify-start space-y-4 sm:grid-cols-1">
         <li className="flex flex-row space-x-4 text-sm">
-          <BookUser className="h-6 w-6 sm:h-4 sm:w-4" />
+          <BookUser className="size-6 sm:size-4" />
           <div>
             {address}
             <br />
@@ -31,17 +31,17 @@ const AboutMe = ({ address, email, phone, postalCode, country, profiles, city, w
           </div>
         </li>
         <li className="flex flex-row items-center space-x-4 text-sm">
-          <Mail className="h-6 w-6 sm:h-4 sm:w-4" />
+          <Mail className="size-6 sm:size-4" />
           <div>
             <a href={`mailto:${email}`}>{email}</a>
           </div>
         </li>
         <li className="flex flex-row items-center space-x-4 text-sm">
-          <Smartphone className="h-6 w-6 sm:h-4 sm:w-4" />
+          <Smartphone className="size-6 sm:size-4" />
           <div>{phone}</div>
         </li>
         <li className="flex flex-row items-center space-x-4 text-sm">
-          <Globe className="h-6 w-6 sm:h-4 sm:w-4" />
+          <Globe className="size-6 sm:size-4" />
           <div>
             <a href={website}>{websiteWithoutProtocol}</a>
           </div>
@@ -49,9 +49,9 @@ const AboutMe = ({ address, email, phone, postalCode, country, profiles, city, w
         {profiles.map((profile) => (
           <li key={profile.network} className="text-sm">
             <a href={profile.url} className="flex items-center space-x-4">
-              {profile.network === "linkedin" && <Linkedin className="h-6 w-6 sm:h-4 sm:w-4" />}
-              {profile.network === "twitter" && <Twitter className="h-6 w-6 sm:h-4 sm:w-4" />}
-              {profile.network === "github" && <Github className="h-6 w-6 sm:h-4 sm:w-4" />}
+              {profile.network === "linkedin" && <Linkedin className="size-6 sm:size-4" />}
+              {profile.network === "twitter" && <Twitter className="size-6 sm:size-4" />}
+              {profile.network === "github" && <Github className="size-6 sm:size-4" />}
               <div>{profile.username}</div>
             </a>
           </li>
