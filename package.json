@@ -29,7 +29,7 @@
     "puppeteer": "^24.34.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "react-markdown": "^9",
+    "react-markdown": "^9.0.1",
     "yaml": "^2.9.0",
     "zod": "^4.4.3"
   },
@@ -42,9 +42,9 @@
     }
   },
   "devDependencies": {
-    "@eslint/js": "^9",
+    "@eslint/js": "^9.39.2",
     "@modyfi/vite-plugin-yaml": "^1.1.1",
-    "@playwright/test": "^1.57.0",
+    "@playwright/test": "^1.60.0",
     "@tailwindcss/typography": "^0.5.20",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^26.1.1",
@@ -53,7 +53,7 @@
     "@typescript-eslint/eslint-plugin": "^8.65.0",
     "@typescript-eslint/parser": "^8.65.0",
     "copy-file": "^11.1.0",
-    "eslint": "^9",
+    "eslint": "^9.39.2",
     "eslint-plugin-better-tailwindcss": "^4.7.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.3",
