@@ -15,7 +15,7 @@ const Header = ({ name, role, summary }: HeaderProps) => (
       </div>
       <CustomMarkdown className="prose-sm max-w-none self-end sm:w-[600px]">{summary}</CustomMarkdown>
     </div>
-    <div className="mt-4 h-5 border-b-[12px] border-smo-blue-400 dark:border-smo-blue-900" />
+    <div className="mt-4 h-5 border-b-12 border-smo-blue-400 dark:border-smo-blue-900" />
   </div>
 );
 
