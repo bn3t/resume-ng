@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/bn3t/resume-ng/compare/v1.7.0...v1.7.1) (2026-08-13)
+
+
+### Bug Fixes
+
+* **deps:** resolve 11 dependency vulnerabilities (10 high, 1 moderate) ([#62](https://github.com/bn3t/resume-ng/issues/62)) [skip netlify] ([367ac4a](https://github.com/bn3t/resume-ng/commit/367ac4a0132f9f7a2387673417162373233ae4ab))
+
 ## [1.7.0](https://github.com/bn3t/resume-ng/compare/v1.6.0...v1.7.0) (2026-06-06)
 
 
