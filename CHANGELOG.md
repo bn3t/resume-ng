@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/bn3t/resume-ng/compare/v1.7.1...v1.7.2) (2026-09-04)
+
+
+### Bug Fixes
+
+* **deps:** resolve 6 high-severity dependency vulnerabilities ([b9e46d8](https://github.com/bn3t/resume-ng/commit/b9e46d83b4447a443f50dd9e48f6a0daa1342b2b))
+
 ## [1.7.1](https://github.com/bn3t/resume-ng/compare/v1.7.0...v1.7.1) (2026-08-13)
 
 
