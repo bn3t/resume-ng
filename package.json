@@ -34,7 +34,7 @@
     "zod": "^4.4.3"
   },
   "overrides": {
-    "brace-expansion": "^1.1.18",
+    "brace-expansion": "^1.1.21",
     "js-yaml": "^4.3.2",
     "yaml-language-server": {
       "yaml": "^2.9.0"
