@@ -1,7 +1,7 @@
 {
   "name": "resume-ng",
   "private": true,
-  "version": "1.7.4",
+  "version": "1.7.5",
   "license": "MIT",
   "type": "module",
   "scripts": {
