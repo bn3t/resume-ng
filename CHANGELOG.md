@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.5](https://github.com/bn3t/resume-ng/compare/v1.7.4...v1.7.5) (2026-10-22)
+
+
+### Bug Fixes
+
+* **deps:** resolve 10 dependency vulnerabilities reported by OSV Scanner ([#72](https://github.com/bn3t/resume-ng/issues/72)) ([168b0cc](https://github.com/bn3t/resume-ng/commit/168b0ccb93b95db5b6ca4fffa90c407edd6f0537))
+
 ## [1.7.4](https://github.com/bn3t/resume-ng/compare/v1.7.3...v1.7.4) (2026-10-02)
 
 
