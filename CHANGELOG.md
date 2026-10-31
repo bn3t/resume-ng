@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.6](https://github.com/bn3t/resume-ng/compare/v1.7.5...v1.7.6) (2026-10-31)
+
+
+### Bug Fixes
+
+* prevent italic job description from being clipped in PDF ([#74](https://github.com/bn3t/resume-ng/issues/74)) ([56d639c](https://github.com/bn3t/resume-ng/commit/56d639c72c71bee9fe9c1f12a9915c23afcd856f))
+
 ## [1.7.5](https://github.com/bn3t/resume-ng/compare/v1.7.4...v1.7.5) (2026-10-22)
 
 
