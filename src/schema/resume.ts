@@ -249,4 +249,5 @@ export type ProcessedResume = Resume & {
   page1: Resume["work"];
   page2: Resume["work"];
   page3: Resume["work"];
+  teaching: Resume["work"];
 };

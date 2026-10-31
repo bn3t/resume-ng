@@ -17,6 +17,7 @@ import Page0 from "../components/Page0";
 import Page1 from "../components/Page1";
 import Page2 from "../components/Page2";
 import Page3 from "../components/Page3";
+import Teaching from "../components/Teaching";
 import Navigation from "../components/Navigation";
 import Posthog from "../components/posthog.astro";
 
@@ -28,6 +29,7 @@ const processedResume: ProcessedResume = {
   page1: resume.work.filter((w) => w.disposition === "page1"),
   page2: resume.work.filter((w) => w.disposition === "page2"),
   page3: resume.work.filter((w) => w.disposition === "page3"),
+  teaching: resume.work.filter((w) => w.disposition === "teaching"),
 };
 
 const githubUrl = resume.basics.profiles.find((p) => p.network === "github")?.url;
@@ -70,8 +72,9 @@ const version = packageJson.version;
       <div class="break-before-page">
         <Page2 work={processedResume.page2} />
       </div>
-      <div>
+      <div class="break-before-page">
         <Page3 work={processedResume.page3} />
+        <Teaching work={processedResume.teaching} />
         <Education education={processedResume.education} />
       </div>
     </main>

@@ -4,17 +4,17 @@ basics:
   summary: |
     Senior Java Developer and Technical Lead with more than 20 years of experience 
     building backend services on the Java platform (Java EE, Spring, Spring Boot, 
-    Hibernate), combined with strong frontend expertise in Angular and ReactJS. 
-    I have led and coached Java development teams, driven architecture and technical 
-    decisions, performed code reviews and worked closely with business stakeholders 
-    and Product Owners to turn requirements into robust, maintainable solutions.
+    Hibernate), plus solid frontend experience in Angular and ReactJS.
+    I have led and coached Java development teams, made architecture and technical
+    decisions, reviewed code and worked closely with business stakeholders
+    and Product Owners to turn requirements into maintainable software.
 
-    Quality is central to how I work: systematic unit testing, integration testing 
+    Quality matters to me: systematic unit testing, integration testing
     with Cypress and Playwright, code reviews and secure coding practices.
 
     ### Specialties
 
-    Java, Spring Boot, Spring Security, Hibernate, Java EE (EJB, JAXB), SOAP and REST 
+    Java, Spring Boot, Spring Security, Hibernate, Java EE, SOAP and REST 
     web services, ActiveMQ, Microsoft SQL Server and Oracle. Delivery with Maven, 
     Jenkins, Git, Docker and Kubernetes. Frontend with Angular, ReactJS and TypeScript.
   phone: +32 479 529 195
@@ -39,19 +39,34 @@ work:
   - company: "Office National de l'Emploi"
     disposition: current
     position: Senior Fullstack Developer
-    description: Fullstack development in Angular, Java and Kotlin
+    description: Tech lead role, Java/Kotlin, Spring Boot and Angular
     website: "https://www.onem.be"
     startDate: "2024-04-01"
     methodology: Agile/Scrum
     summary: >-
-      Working on admissibility and complete unemployment projects for the
-      [Office National de l'Emploi](https://www.onem.be).
+      Senior developer with a technical lead role on the unemployment eligibility
+      applications of the [Office National de l'Emploi](https://www.onem.be).
+      Responsible for the technical side of the application. Implement the complex
+      rules that decide who is eligible and at which unemployment benefit rate.
     highlights:
-      - Backend development in Java and Kotlin with Spring Boot / Hibernate / Microsoft SQL Server
-      - Frontend development with Angular
-      - Frontend testing with Cypress
-      - Code reviews of pull requests, mentoring of developers and contribution to technical choices
-      - DevOps with Azure DevOps / Docker / Kubernetes / Helm / Openshift / Grafana / Kibana
+      - >-
+        Make the architecture decisions: hexagonal architecture with anti-corruption
+        layers keeps the business logic apart from external systems. Backend in
+        Java/Kotlin with Spring Boot, frontend features in Angular.
+      - >-
+        Review code in a Scrum team of two to three developers and coach a junior
+        developer closely.
+      - >-
+        Give Spring training to colleagues and share know-how on Java, Kotlin,
+        Maven, OpenShift and Helm.
+      - >-
+        The team has the smallest budget in hours, yet delivers among the most.
+      - >-
+        Stable, maintainable application: very few production errors and CI tests
+        that don't randomly fail.
+      - >-
+        Since 2026, more involved in refinement, functional analysis and UX
+        preparation, so requirements are clearer before development starts.
     technologies:
       - angular
       - java
@@ -70,21 +85,55 @@ work:
       - azure-devops
       - grafana
       - kibana
+  - company: Elixir Solutions
+    disposition: teaching
+    position: React Trainer
+    description: Three-day corporate training
+    startDate: "2025-07"
+    endDate: "2025-07"
+    methodology: Practical training / Coding exercises
+    summary: >-
+      Three days of hands-on React training for the company's developers, aimed at
+      working on maintainable React applications.
+    highlights:
+      - >-
+        Taught React Hooks, state and side-effect management, custom hooks and
+        performance optimisation through practical examples.
+      - >-
+        Covered styling with CSS Modules and Tailwind CSS, navigation with React
+        Router, and application state management with Redux Toolkit.
+      - >-
+        Showed server-state management with TanStack Query, including data
+        fetching, caching, error handling and CRUD operations.
+    technologies:
+      - reactjs
+      - redux-toolkit
+      - react-query
+      - react-router
+      - tailwindcss
   - company: Ecole-IT
-    disposition: current
+    disposition: teaching
     position: Engineering School Teacher
-    description: ReactJS / Spring Boot / Database
+    description: Java, Spring Boot, React and database courses
     website: "https://ecole-it.com"
     startDate: "2023-09-01"
     endDate: "2024-06-30"
     methodology: Teaching / Live coding / Exercises
     summary: >-
-      Teaching software engineering courses to master's degree students at [**Ecole-IT**](https://ecole-it.com), 
-      focusing on modern web development and database design.
+      Designed and taught software engineering courses for 20 first-year master's
+      students at [**Ecole-IT**](https://ecole-it.com), many of them beginners in
+      these subjects. Each course was an intensive five-day block, given alongside
+      client assignments.
     highlights:
-      - Database modeling and implementation using the Merise methodology
-      - Building scalable APIs and microservices with Spring Boot, Java, and Hibernate
-      - Modern frontend development using ReactJS and TypeScript
+      - >-
+        Courses built around a real application: short theory, then live coding to
+        show design and implementation step by step.
+      - >-
+        Taught database modeling with Merise, Java/Spring Boot and Hibernate backend
+        development, and React/TypeScript frontend development.
+      - >-
+        By the end, students had built a fullstack application; some now work as
+        Java developers.
     technologies:
       - reactjs
       - java
@@ -95,27 +144,25 @@ work:
   - company: GLS Belgium
     disposition: current
     position: Senior Frontend Developer
-    description: Frontend development in ReactJS and TypeScript
+    description: React/TypeScript frontend, responsible for technical choices
     website: "https://mygls.be/en"
     startDate: "2022-09-01"
     endDate: "2024-03-31"
     methodology: Agile/Scrum
-    summary: |
-      Contributed to developing the [MyGLS](https://mygls.be/en) project, 
-      a web application that facilitates personalized shipment options and 
-      enables users to monitor and track their shipments with ease.
-      GLS partners with independent entities for shipment deliveries, maintaining 
-      responsibility for their compliance with legal standards related to company 
-      status, drivers, and vehicles. To support this, we developed an 
-      [application](https://partner.mygls.be/en/) 
-      that organizes and stores information on transport partners, drivers, 
-      vehicles, and their legal documentation.
+    summary: >-
+      Responsible for the frontend in a six-person team building
+      [MyGLS](https://mygls.be/en) shipment services and a
+      [transport-partner portal](https://partner.mygls.be/en/) for partners,
+      drivers, vehicles and their compliance documents.
     highlights:
-      - Frontend development using [**ReactJS**](https://react.dev/), **TypeScript**
-        and [**NextJS**](https://nextjs.org/) and [ant-design](https://ant.design/).
-      - Synchronize copywriting using [Phrase](https://phrase.com).
-      - Unit testing with react testing library.
-      - Integration and Screenshot testing with [Playwright](https://playwright.dev).
+      - >-
+        Chose the frontend stack (React, TypeScript, Ant Design) and built the
+        interfaces.
+      - >-
+        Stable frontend; users liked its look and how easy it was to use.
+      - >-
+        Unit tests with React Testing Library; integration and visual regression
+        tests with Playwright.
     technologies:
       - reactjs
       - zustand
@@ -126,40 +173,36 @@ work:
       - react-testing-library
       - playwright
       - vitejs
-      - nextjs
       - axios
       - leaflet
       - openapi
       - tailwindcss
       - typesafe-i18n
   - company: EVS Broadcast Equipment
-    disposition: page1
+    disposition: current
     position: Senior Frontend Developer
-    description: Frontend development in ReactJS and TypeScript
+    description: HiRes video player and stack upgrade
     website: "https://evs.com/products/asset-workflow-management/ipd-via"
     startDate: "2021-05-01"
     endDate: "2022-08-31"
     methodology: Agile/Scrum
     summary: >-
-      Contributed to the development of the Production Asset Management (PAM) 
-      [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via) project. 
-      This PAM software stands as an essential tool for television networks, 
-      streamlining the efficient management, organization, and accessibility of 
-      their digital content and media assets.
+      Asked back by EVS after positive feedback on the first assignment.
+      Responsible for the HiRes video player and the stack upgrade of
+      [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via), a
+      production asset management platform for broadcasters.
     highlights:
       - >-
-        Development of a HiRes video player on the [**Electron**](https://www.electronjs.org/) platform. 
-        Interface with the in-house C++ video library via node n-api.
+        Designed the Electron-based HiRes video player, then presented and defended
+        the solution; integrated the in-house C++ video library through Node-API.
       - >-
-        Development of a file ingest application ([Electron](https://www.electronjs.org/) + Web) 
-        for ingesting local video files.
+        Developed an Electron and web application for ingesting local video files.
       - >-
-        Modernise the stack and port the application to latest versions of dependencies and tooling 
-        ([ReactJS](https://react.dev/), [Webpack](https://webpack.js.org/), [Electron](https://www.electronjs.org/), 
-        NodeJS, [CRA](https://create-react-app.dev/)).
+        Upgraded React, Webpack, Electron and Node.js, fixing the Webpack build and
+        native module issues along the way.
       - >-
-        Development of a [video editing tool for FOX Sports US](https://evs.com/company/news/evs-launches-ipd-via-create) 
-        (ReactJS).
+        React development in a larger team building a
+        [video editing tool for FOX Sports US](https://evs.com/company/news/evs-launches-ipd-via-create).
     technologies:
       - cucumber
       - cypress
@@ -180,23 +223,25 @@ work:
   - company: Kensu
     disposition: page1
     position: Senior Frontend Developer
-    description: Frontend development in ReactJS and TypeScript
+    description: React frontend and move to Ant Design
     website: https://www.kensu.io
     startDate: "2019-12-01"
     endDate: "2021-04-30"
     methodology: Agile/Scrum
-    summary: |
-      Developed proprietary [Data Observability](https://www.kensu.io/product/features) software 
-      to help organizations ensure data quality, reliability, and integrity through 
-      comprehensive monitoring and analysis of their data ecosystem.
+    summary: >-
+      Responsible for the React/TypeScript frontend of a
+      [data observability](https://www.kensu.io/product/features) platform, in a
+      team of four developers (the other three on the Scala backend). Learned a
+      complex business domain in depth to build its user interfaces.
     highlights:
-      - New features in the frontend using [ReactJS](https://react.dev/) and the
-        [**Antd Design System**](https://ant.design/).
+      - Moved the frontend from a custom design system to Ant Design.
       - >-
-        Write [**OpenAPI**](https://swagger.io/specification/) (swagger) definitions to specify the interface with
-        the backend.
-      - Frontend testing with [**Cypress**](https://www.cypress.io/) and [**Wiremock**](https://wiremock.org/).
-      - Mock implementation of the backend to allow for parallel development
+        Introduced a mock backend so frontend and backend could be developed
+        in parallel.
+      - >-
+        Maintained the OpenAPI definitions between the React frontend and the
+        Scala backend.
+      - Frontend tests with Cypress and WireMock.
     technologies:
       - ant-design
       - apexcharts
@@ -226,28 +271,22 @@ work:
   - company: Deutsche Bank Belgium
     disposition: page1
     position: Senior Frontend Developer
-    description: Frontend development in Angular
+    description: Angular development, test automation and Java code reviews
     website: "https://www.deutschebank.be"
     startDate: "2019-01-01"
     endDate: "2019-11-30"
     methodology: Agile/Scrum
-    summary: |
-      I contributed to the development of the bank's 
-      [Online Banking application](https://onlinebanking.deutschebank.be/), a 
-      customer-facing platform that provides account holders with access to 
-      traditional banking features like checking account balances, viewing 
-      transaction history, and making payments. My specific contributions 
-      involved developing an innovative feature that enables users to link cards 
-      from other banks, as well as enhancing the user experience on the sign-in screens.
+    summary: >-
+      Developed Angular features for the bank's
+      [Online Banking application](https://onlinebanking.deutschebank.be/):
+      third-party card linking and the sign-in screens. Also worked on an
+      internal administration application.
     highlights:
       - >-
-        Card Linkage: allow users of OLB to link their third party cards to
-        their bank accounts.
-      - Signing screen
-      - Admin application used by internal bank users
-      - Code reviews (PRs) of frontend and backend code
-      - Mock implementation of the backend to allow for parallel development
-      - Frontend Testing with [**Cypress**](https://www.cypress.io/) and [**Wiremock**](https://wiremock.org/).
+        Introduced a mock backend and Cypress/WireMock tests, so the frontend could
+        be tested thoroughly without the backend services and became more stable.
+      - >-
+        Reviewed pull requests on both the frontend and the Java backend.
     technologies:
       - angular
       - cypress
@@ -256,19 +295,22 @@ work:
   - company: EVS Broadcast Equipment
     disposition: page1
     position: Senior Frontend Developer
-    description: Frontend development in ReactJS
+    description: First HiRes video player and ingest application
     website: "https://evs.com/products/asset-workflow-management/ipd-via"
     startDate: "2018-03-01"
     endDate: "2018-12-31"
     methodology: Agile/Scrum
     summary: >-
-      Development for the [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via) project.
+      Developed React and Electron applications for
+      [IPD.VIA](https://evs.com/products/asset-workflow-management/ipd-via),
+      including the first versions of the video player and the ingest
+      application, improved again on returning in 2021–2022.
     highlights:
-      - Development of a Workflow Management UI.
-      - Development of a HiRes video player on the [**Electron**](https://www.electronjs.org/) platform.
       - >-
-        Development of a file ingest application ([**Electron**](https://www.electronjs.org/) + **Web**) for ingesting local
-        video files
+        Designed and built the first Electron-based HiRes player and an Electron
+        and web application for ingesting local video files.
+      - Developed the workflow management UI in React.
+      - Reviewed colleagues' pull requests.
     technologies:
       - cucumber
       - cypress
@@ -286,81 +328,67 @@ work:
   - company: EVS Broadcast Equipment
     disposition: page1
     position: Senior Backend Developer
-    description: Backend development in Java and Spring
+    description: Java/Spring Transfer Agent and integration tests
     website: "https://evs.com/products/asset-workflow-management/ipd-via"
     startDate: "2017-11-01"
     endDate: "2018-02-28"
     methodology: Agile/Scrum
-    summary: "Development for the IPD.VIA project"
+    summary: >-
+      Designed and built the Java/Spring Transfer Agent for IPD.VIA, as a
+      multi-module Maven project.
     highlights:
       - >-
-        Development of a **Transfer Agent** for transfering files from/to ftp, sftp,
-        [AWS S3](https://aws.amazon.com/s3/getting-started/), [Aspera](https://www.ibm.com/products/aspera), 
-        File Catalyst, Tape storage.
+        File transfers from and to FTP, SFTP, AWS S3, Aspera, FileCatalyst and
+        tape storage.
       - >-
-        Automation test framework for integration testing the Transfer Agent, 
-        using **docker** and **docker-compose**.
+        Set up automated integration tests of the agent against its external
+        systems, using Docker and Docker Compose.
     technologies:
       - spring
       - amazon-web-services
       - spring-boot
       - java-8
+      - maven
       - rest
       - docker
       - docker-compose
   - company: Design is Dead (now Emakina)
     disposition: page1
     position: Senior Fullstack Developer
-    description: Fullstack development with AngularJS, Angular and Java
     website: "https://www.emakina.com/en-be"
     startDate: "2017-05-01"
     endDate: "2017-10-30"
     summary: >-
-      Development of applications for [Base Company](https://www.base.be/en/private.html).
-    highlights:
-      - Fulstack Development in Java, [**AngularJS**](https://angularjs.org/) and
-        [**Angular**](https://angular.io/) of features for the Base e-commerce website
+      Developed features for [Base](https://www.base.be/en/private.html)'s
+      e-commerce website using Java, Angular and AngularJS.
     technologies:
       - angular
       - angularjs
-      - cucumber
-      - hibernate
-      - html
-      - javascript
-      - junit
-      - maven
-      - oracle
+      - java
   - company: BNP Paribas Fortis
-    disposition: page2
+    disposition: page1
     position: Senior Developer, Technical Architect, and IT Integrator
-    description: Managed deployment and integration for Scrum team projects.
+    description: Technical architecture, DevOps and application delivery
     website: "https://www.bnpparibasfortis.be"
     startDate: "2016-08-01"
     endDate: "2017-04-30"
     methodology: Agile/Scrum
-    summary: |
-      Orchestrated seamless deployment of Scrum team projects within the bank's 
-      infrastructure, ensuring product integration with dependent systems. 
-      Managed server provisioning, network configuration, and WebSphere setup. 
-      Oversaw application security, roles, and **SQL** script implementation. 
-      Mentored the development team on technical decisions and coding practices, 
-      and facilitated test automation with tools like 
-      [**Cucumber-Java**](https://cucumber.io/docs/installation/java/). 
-
-      Worked within an Agile/Scrum methodology, utilizing technologies such as 
-      [**Hibernate**](https://hibernate.org/), [**Java**](https://www.java.com/en/), 
-      [**Oracle**](https://www.oracle.com/be/), [**Spring**](https://spring.io/) and
-      [**WebSphere**](https://www.ibm.com/products/websphere-application-server).
+    summary: >-
+      Technical architect and IT integrator of the team, writing Java code
+      while also handling the DevOps side. Designed the application together
+      with experienced developers and was responsible for deployment, database
+      migration scripts and log monitoring until the application was deployed.
     highlights:
-      - Follow-up infrastructure provisioning of servers
-      - Follow-up configuration of network routing
-      - Follow-up Websphere setup for the application
-      - Manage security and roles
-      - Provide SQL scripts to DBAs and follow-up their execution
       - >-
-        Follow up with the development team, guide technical choices and
-        implementation
-      - Provide tools to allow test automation
+        Worked with experienced developers on architecture and technical decisions;
+        implemented features in Java, Spring and Hibernate.
+      - >-
+        Responsible for deployment: coordinated server provisioning, network
+        configuration and WebSphere setup in the bank's infrastructure.
+      - >-
+        Prepared database migration scripts and followed up their execution with
+        the DBAs; managed application security and roles; monitored application logs.
+      - Provided Cucumber-Java tooling for test automation.
     technologies:
       - bdd
       - cucumber-java
@@ -374,20 +402,17 @@ work:
   - company: Takeeateasy.be
     disposition: page2
     position: Senior Fullstack Developer
-    description: Developed consumer apps; web, mobile, cloud in Agile team.
+    description: Java/Spring Boot fullstack and iOS development
     startDate: "2015-10-01"
     endDate: "2016-07-31"
     methodology: Agile/Scrum
     summary: >-
-      Developed and managed consumer-facing web and mobile applications, 
-      utilizing JavaScript, TypeScript, and Swift within an Agile/Scrum 
-      environment. Handled full lifecycle development with Spring/Hibernate and 
-      managed AWS hosting.
+      Senior fullstack developer in a larger Agile team: Java/Spring Boot backend
+      services and web interfaces in JavaScript and TypeScript.
     highlights:
-      - Frontend web development in **JavaScript** and **TypeScript**
-      - iOS development for iPhone in [**Swift**](https://developer.apple.com/swift/)
-      - Backend development with [**Spring**](https://spring.io/)
-      - Manage the Application hosted on [**AWS**](https://aws.amazon.com) (S3, RDS, Elastic Beanstalk)
+      - Took part in the technical discussions behind the team's technology choices.
+      - Worked on the iOS version (Swift) of a new mobile application.
+      - Managed the AWS hosting (S3, RDS, Elastic Beanstalk).
     technologies:
       - java
       - javascript
@@ -404,28 +429,27 @@ work:
     disposition: page2
     position: >-
       Java Tech Lead - Application Architect - Senior Fullstack Developer
-    description: >-
-      Fullstack development in JavaScript and Java with
-      Spring/Hibernate
+    description: Java tech lead, coaching and production releases
     website: "https://centric.bnpparibas.com/public/marketing/"
     startDate: "2010-09-01"
     endDate: "2015-09-30"
     methodology: Agile/Scrum
-    summary: >
-      Developement, Team Leading and architectural design for the Centric project, 
-      delivering crucial trading and post-trade applications. Spearheaded the 
-      creation of framework tools and applications for FX trading, market 
-      data visualization, and regulatory EMIR reporting, leveraging Java and 
-      JavaScript technologies within an Agile/Scrum methodologies.
+    summary: >-
+      Tech lead who kept coding: coached up to four Java developers on the Centric
+      trading and post-trade applications. Helped bring several applications to
+      production: FX trading, market data visualisation and EMIR regulatory reporting.
     highlights:
-      - Led and coached a team of up to 4 Java developers
+      - Assigned Jira tickets to the developers and followed their progress.
       - >-
-        Designed the application architecture and drove the key technical decisions
-        (Java EE, Spring, Hibernate, CXF web services)
-      - Performed code reviews and set coding standards to ensure high code quality
+        Coached developers in implementation discussions: answered technical
+        questions and helped them weigh solution options.
       - >-
-        Worked with business stakeholders to translate trading and regulatory
-        requirements into technical solutions, and followed up releases
+        Had a major say in backend and frontend technology choices, notably Spring
+        and Apache Wicket.
+      - Reviewed code and set the coding standards.
+      - >-
+        Worked with business analysts to turn trading and regulatory requirements
+        into technical solutions, and followed applications through to production.
     technologies:
       - angularjs
       - cxf
@@ -433,6 +457,7 @@ work:
       - highcharts
       - java
       - java-ee
+      - jira
       - javascript
       - jboss
       - jquery
@@ -450,11 +475,10 @@ work:
     endDate: "2010-08-31"
     methodology: Waterfall
     summary: >-
-      Contributed to the ETRM project, focusing on backend J2EE development and BPMN for 
-      energy trading applications. Developed components using [**Java**](https://www.java.com/en/), 
-      [**Spring**](https://spring.io/), and [**Hibernate**](https://hibernate.org/), 
-      implemented workflows. Utilized technologies such as Wicket, Jasper Reports, 
-      JBoss, Oracle, Ant, and SVN within a Waterfall methodology framework.
+      Backend J2EE development and BPMN workflows for the ETRM energy trading project.
+      Developed components in [**Java**](https://www.java.com/en/),
+      [**Spring**](https://spring.io/) and [**Hibernate**](https://hibernate.org/),
+      with Wicket, Jasper Reports, JBoss, Oracle, Ant and SVN.
     highlights: []
     technologies:
       - java
@@ -469,15 +493,14 @@ work:
   - company: Direct Mobile SPRL
     disposition: page2
     position: Senior Software Developer and Owner
-    description: Architecture, Frontend, Backend developemnt in Java/J2EE
+    description: Architecture, frontend and backend development in Java/J2EE
     website: ""
     startDate: "2006-10-01"
     endDate: "2009-03-31"
     summary: >-
-      Led the architecture, development, and production support of mobile applications. 
-      Specialized in Java/J2EE platforms, focusing on both frontend and backend systems, 
-      and leveraged technologies such as **Wicket**, **PostgreSQL**, **JBoss**, and **ActiveMQ** to 
-      deliver sophisticated mobile solutions.
+      Own company. Architecture, development and production support of mobile
+      applications on Java/J2EE, frontend and backend, with **Wicket**,
+      **PostgreSQL**, **JBoss** and **ActiveMQ**.
     highlights: []
     technologies:
       - java
@@ -547,9 +570,9 @@ work:
     endDate: "2003-06-01"
     methodology: Waterfall
     summary: >-
-      Part of the GUI development for the [CLS Bank](https://www.cls-group.com/) system, ensuring 
-      cross-platform compatibility across Windows NT and [AIX](https://www.ibm.com/products/aix). 
-      Led the design and enhancement of a complex 
+      Part of the GUI development team for the [CLS Bank](https://www.cls-group.com/) system,
+      running on both Windows NT and [AIX](https://www.ibm.com/products/aix).
+      Led the design and evolution of a complex
       [**MFC/STL**](https://learn.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-170) 
       application and a [**C++**](https://en.cppreference.com/w/) API. Mentored a team of 6, improved code quality, provided 
       [**AIX**](https://www.ibm.com/products/aix) support, and developed 
@@ -576,25 +599,13 @@ work:
     endDate: "2000-09-01"
     methodology: Waterfall
     summary: |
-      Senior Software Developer and Team Leader with a strong track record from 
-      1991-2000, specializing in the development of web and distributed applications, 
-      EDM systems, and workflow solutions. Led and contributed to key projects in a 
-      range of environments, utilizing technologies such as [**C**](https://en.cppreference.com/w/c), [**C++**](https://en.cppreference.com/w/), 
-      [**Java**](https://www.java.com/en/) and [**Python**](https://www.python.org/) 
-      across **Windows**, **UNIX** and **Linux** platforms. 
-
-      Demonstrated expertise in database management and development tools, 
-      delivering scalable solutions in telecom, document management, 
-      and various freelance engagements.
-    highlights:
-      - Versatile Software Developer and Team Leader with a proven history of
-        leading innovative projects in telecom, document management, and web development
-        from 1991-2000.
-      - Expert in a multitude of programming languages and database systems across
-        various platforms.
-      - Delivered high-impact solutions and applications, both as a full-time
-        specialist and a freelance contractor, contributing to the
-        technological advancement of multiple organizations.
+      Developer, then team leader, in France and Belgium, as an employee and as a
+      freelancer. Web and distributed applications, document management (EDM) and
+      workflow systems for telecom and other companies. Worked in
+      [**C**](https://en.cppreference.com/w/c), [**C++**](https://en.cppreference.com/w/),
+      [**Java**](https://www.java.com/en/) and [**Python**](https://www.python.org/)
+      on **Windows**, **UNIX** and **Linux**, with various databases and development tools.
+    highlights: []
     technologies:
       - c
       - c++
