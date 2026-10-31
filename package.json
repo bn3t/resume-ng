@@ -21,17 +21,17 @@
     "@astrojs/react": "^6.0.5",
     "@fontsource-variable/league-gothic": "^5.2.8",
     "@fontsource-variable/montserrat": "^5.2.8",
-    "astro": "^7.3.1",
+    "astro": "^7.3.3",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.21",
     "lucide-react": "^0.562.0",
     "pdf-lib": "^1.17.1",
-    "puppeteer": "^25.6.0",
+    "puppeteer": "^25.13.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-markdown": "^9.0.1",
     "yaml": "^2.9.0",
-    "zod": "^4.4.3"
+    "zod": "^4.6.6"
   },
   "overrides": {
     "brace-expansion": "^1.1.21",
