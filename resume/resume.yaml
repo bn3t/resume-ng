@@ -1,24 +1,22 @@
 basics:
   name: Bernard Niset
-  label: Senior Fullstack Developer (Freelance)
+  label: Senior Java Developer & Tech Lead — Fullstack (Freelance)
   summary: |
-    As a Senior Fullstack Engineer, I utilize a strong background in Java-based backend 
-    services combined with extensive experience in modern frontend technologies. My recent 
-    shift to fullstack development allows me to apply my thorough knowledge of the Java Platform
-    and harness the capabilities of the Angular framework to create interactive and 
-    responsive user interfaces.
+    Senior Java Developer and Technical Lead with more than 20 years of experience 
+    building backend services on the Java platform (Java EE, Spring, Spring Boot, 
+    Hibernate), combined with strong frontend expertise in Angular and ReactJS. 
+    I have led and coached Java development teams, driven architecture and technical 
+    decisions, performed code reviews and worked closely with business stakeholders 
+    and Product Owners to turn requirements into robust, maintainable solutions.
 
-    Testing continues to be a critical component of my development process. I am proficient 
-    in systematic unit testing and adept at using advanced integration tools such as 
-    Cypress and Playwright, which are essential for thorough application testing and 
-    effective backend simulation.
+    Quality is central to how I work: systematic unit testing, integration testing 
+    with Cypress and Playwright, code reviews and secure coding practices.
 
     ### Specialties
 
-    Strong expertise in Angular, TypeScript, and JavaScript. Comprehensive experience in 
-    backend technologies, including Java, Spring, Hibernate, Web Services, and Cloud 
-    Computing. My approach focuses on integrating innovative frontend techniques with 
-    robust backend solutions to deliver superior outcomes for clients.
+    Java, Spring Boot, Spring Security, Hibernate, Java EE (EJB, JAXB), SOAP and REST 
+    web services, ActiveMQ, Microsoft SQL Server and Oracle. Delivery with Maven, 
+    Jenkins, Git, Docker and Kubernetes. Frontend with Angular, ReactJS and TypeScript.
   phone: +32 479 529 195
   email: bn@smartobjects.be
   location:
@@ -38,20 +36,21 @@ basics:
       username: bn3t
       url: https://github.com/bn3t
 work:
-  - company: RVA-ONEM (via 5thfloor)
+  - company: "Office National de l'Emploi"
     disposition: current
     position: Senior Fullstack Developer
-    description: Fullstack development in Angular and Java
+    description: Fullstack development in Angular, Java and Kotlin
     website: "https://www.onem.be"
     startDate: "2024-04-01"
     methodology: Agile/Scrum
     summary: >-
       Working on admissibility and complete unemployment projects for the
-      [RVA-ONEM](https://www.onem.be) organization.
+      [Office National de l'Emploi](https://www.onem.be).
     highlights:
-      - Backend development with Spring Boot / Hibernate / Microsoft SQL Server
+      - Backend development in Java and Kotlin with Spring Boot / Hibernate / Microsoft SQL Server
       - Frontend development with Angular
       - Frontend testing with Cypress
+      - Code reviews of pull requests, mentoring of developers and contribution to technical choices
       - DevOps with Azure DevOps / Docker / Kubernetes / Helm / Openshift / Grafana / Kibana
     technologies:
       - angular
@@ -404,7 +403,7 @@ work:
   - company: BNP Paribas
     disposition: page2
     position: >-
-      Senior Fullstack Developer - Application Architect - Dev Lead
+      Java Tech Lead - Application Architect - Senior Fullstack Developer
     description: >-
       Fullstack development in JavaScript and Java with
       Spring/Hibernate
@@ -418,7 +417,15 @@ work:
       creation of framework tools and applications for FX trading, market 
       data visualization, and regulatory EMIR reporting, leveraging Java and 
       JavaScript technologies within an Agile/Scrum methodologies.
-    highlights: []
+    highlights:
+      - Led and coached a team of up to 4 Java developers
+      - >-
+        Designed the application architecture and drove the key technical decisions
+        (Java EE, Spring, Hibernate, CXF web services)
+      - Performed code reviews and set coding standards to ensure high code quality
+      - >-
+        Worked with business stakeholders to translate trading and regulatory
+        requirements into technical solutions, and followed up releases
     technologies:
       - angularjs
       - cxf
@@ -772,9 +779,9 @@ skills:
     keywords:
       - ReactJS
       - Angular
+      - NextJS
       - WebPack
       - Vite
-      - NextJS
       - HTML
       - CSS
       - REST
@@ -790,8 +797,12 @@ skills:
   - name: Java Ecosystem
     level: Master
     keywords:
-      - Spring
+      - Spring Boot
+      - Spring Security
       - Hibernate
+      - JEE / EJB
+      - SOAP / REST
+      - ActiveMQ
   - name: Databases
     level: Master
     keywords:
@@ -799,17 +810,23 @@ skills:
       - Mssql
       - Oracle
       - MySQL/MariaDB
-  - name: Tooling
+  - name: Build & Delivery
     level: Master
     keywords:
-      - Docker
+      - Maven
+      - Jenkins
       - Git
+      - Jira
+      - SonarQube
+      - Docker / K8s
   - name: Methodology
     level: Master
     keywords:
       - Scrum
       - TDD
+      - Tech Lead
       - Testing Strategy
+      - Mentoring
 languages:
   - language: English
     fluency: Full professional

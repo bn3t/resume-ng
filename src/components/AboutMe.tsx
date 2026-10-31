@@ -1,4 +1,5 @@
-import { BookUser, Globe, Linkedin, Mail, Smartphone, Twitter, Github } from "lucide-react";
+import { BookUser, Globe, Mail, Smartphone } from "lucide-react";
+import { Github, Linkedin, Twitter } from "./BrandIcons";
 import { Resume } from "../schema/resume";
 import Title from "./Title";
 
