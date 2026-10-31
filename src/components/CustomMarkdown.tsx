@@ -8,17 +8,19 @@ interface CustomMarkdownProps {
 }
 
 const CustomMarkdown = ({ pAsSpan = false, className, ...props }: CustomMarkdownProps) => {
+  // react-markdown 10 dropped the className prop; wrap in the same div it used to render.
   return (
-    <Markdown
-      {...props}
-      className={clsx("prose prose-cv dark:prose-invert", className)}
-      components={{
-        p: pAsSpan ? "span" : "p",
-        a: (props) => {
-          return <a {...props} target="_blank" />;
-        },
-      }}
-    />
+    <div className={clsx("prose prose-cv dark:prose-invert", className)}>
+      <Markdown
+        {...props}
+        components={{
+          p: pAsSpan ? "span" : "p",
+          a: (props) => {
+            return <a {...props} target="_blank" />;
+          },
+        }}
+      />
+    </div>
   );
 };
 

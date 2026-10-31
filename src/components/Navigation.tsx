@@ -1,4 +1,4 @@
-import { Github } from "lucide-react";
+import { Github } from "./BrandIcons";
 
 interface NavigationProps {
   name: string;

@@ -6,7 +6,7 @@ describe("Resume Head", () => {
   test("has title", async ({ page }) => {
     await page.goto("http://localhost:5173");
 
-    await expect(page).toHaveTitle(/Bernard Niset - Senior Fullstack Developer \(Freelance\)/);
+    await expect(page).toHaveTitle(/Bernard Niset - Senior Java Developer & Tech Lead — Fullstack \(Freelance\)/);
   });
 
   test("has open graph", async ({ page }) => {
@@ -14,11 +14,11 @@ describe("Resume Head", () => {
 
     await expect(page.locator('meta[property="og:title"]')).toHaveAttribute(
       "content",
-      "Bernard Niset - Senior Fullstack Developer (Freelance)",
+      "Bernard Niset - Senior Java Developer & Tech Lead — Fullstack (Freelance)",
     );
     await expect(page.locator('meta[property="og:description"]')).toHaveAttribute(
       "content",
-      /As a Senior Fullstack Engineer, I utilize a strong background in Java-based/,
+      /Senior Java Developer and Technical Lead with more than 20 years of experience/,
     );
     await expect(page.locator('meta[property="og:image"]')).toHaveAttribute("content", "/og-image.png");
     await expect(page.locator('meta[property="og:type"]')).toHaveAttribute("content", "profile");
@@ -30,7 +30,7 @@ describe("Resume Head", () => {
     await expect(page.locator('meta[name="author"]')).toHaveAttribute("content", "Bernard Niset");
     await expect(page.locator('meta[name="description"]')).toHaveAttribute(
       "content",
-      "Senior Fullstack Developer (Freelance)",
+      "Senior Java Developer & Tech Lead — Fullstack (Freelance)",
     );
   });
 });
