@@ -25,11 +25,11 @@ export const Job = ({ job, index, incolumns = false }: JobProps) => {
           <div className="w-full border-b-2 border-b-smo-blue-400 dark:border-smo-blue-900"></div>
           <div className="flex flex-row justify-between">
             <div className="tracking-wider">{job.position}</div>
-            {!incolumns && <div className="pr-1 text-xl italic">{job.description}</div>}
+            {!incolumns && <div className="text-xl italic print:pr-1">{job.description}</div>}
           </div>
         </div>
       </div>
-      {incolumns && <div className="pr-1 text-xl italic">{job.description}</div>}
+      {incolumns && <div className="text-xl italic print:pr-1">{job.description}</div>}
       <CustomMarkdown className="mt-1 max-w-none leading-normal">{job.summary}</CustomMarkdown>
       <ul className="ml-1 list-outside list-disc pl-4">
         {job.highlights?.map((highlight, i) => (
