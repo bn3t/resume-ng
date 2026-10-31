@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/bn3t/resume-ng/compare/v1.7.6...v1.8.0) (2026-10-31)
+
+
+### Features
+
+* **resume:** emphasize Java tech lead experience ([#76](https://github.com/bn3t/resume-ng/issues/76)) ([319c8d0](https://github.com/bn3t/resume-ng/commit/319c8d020f611fc47a3244a4dd5c8ea7122a6cdd))
+
 ## [1.7.6](https://github.com/bn3t/resume-ng/compare/v1.7.5...v1.7.6) (2026-10-31)
 
 
