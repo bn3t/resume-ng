@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/bn3t/resume-ng/compare/v1.8.0...v1.9.0) (2026-11-02)
+
+
+### Features
+
+* **resume:** add Teaching section and rewrite work history ([#78](https://github.com/bn3t/resume-ng/issues/78)) ([2b2f35c](https://github.com/bn3t/resume-ng/commit/2b2f35c881fc44b50f2adb0333854c77ba6ee82c))
+
 ## [1.8.0](https://github.com/bn3t/resume-ng/compare/v1.7.6...v1.8.0) (2026-10-31)
 
 
