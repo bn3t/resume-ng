@@ -46,6 +46,7 @@ Resume is paginated for print. Components in `src/components/`:
 Jobs have a `disposition` field that determines which page they appear on:
 - `current` - Page 0 (featured positions)
 - `page1`, `page2`, `page3` - Subsequent pages
+- `teaching` - Separate "Teaching" section on the last page, before Education
 - `obsolete` - Hidden from display
 
 ## Conventions
