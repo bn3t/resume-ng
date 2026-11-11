@@ -19,10 +19,10 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.12",
-    "@astrojs/react": "^7.1.2",
+    "@astrojs/react": "^7.1.8",
     "@fontsource-variable/league-gothic": "^5.3.0",
     "@fontsource-variable/montserrat": "^5.3.0",
-    "astro": "^7.4.4",
+    "astro": "^7.4.11",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.23",
     "lucide-react": "^1.66.0",
