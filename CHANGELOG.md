@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/bn3t/resume-ng/compare/v1.9.0...v1.9.1) (2026-11-28)
+
+
+### Miscellaneous Chores
+
+* release 1.9.1 ([262e763](https://github.com/bn3t/resume-ng/commit/262e7633c8606f5d3207f17fcfd90563d8cbafdd))
+
 ## [1.9.0](https://github.com/bn3t/resume-ng/compare/v1.8.0...v1.9.0) (2026-11-02)
 
 
